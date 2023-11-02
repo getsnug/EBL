@@ -42,26 +42,34 @@ for i in range(4):
         # [5.80962 * cycle_time for cycle_time in range(1,6)],
         # [5.2456 * cycle_time for cycle_time in range(1,6)],
             # [5.0755 * cycle_time for cycle_time in range(1,6)]
+#set up log
+logFileName = 'Ramsey_10.31' #this is the name of the CSV that the data will save under. to make a new CSV, just input an unused name.
+black_pixel_count = 11020.0
+logFile = open('logs/' + logFileName + '.csv', 'a', newline='')
+# define the pattern and initialize connection
+phenom = ppi.Phenom('192.168.200.101','MVE08554410904L','4JCMC472P911') #instrument IP address, license for software, password
+vm = phenom.GetSemViewingMode() #makes instrument tell what mode/makes beam available
+pat = ppi.Patterning.BitmapScanPattern() #Writes an image. (Instead of a point or rectangle) for more info see ppi-patterning doc from vince
+pat.maskColor = ppi.Bgra32(255, 255, 255, 255) #assuming its making the color associate with depth. "any pixel matching this color will be skipped"- ppi-patterning doc from vince
+pat.center = ppi.Position(+0.0, +0.0) #tells to start pattern from the center
+
+#move to initial offset
+phenom.MoveBy(offset[0], offset[1])
+currentPos = offset
 for filename in fileNames:
     #filename = 'images/2D wide border (93 microns)/2Dt0.4.png' #insert file name, remembering to include names of any folders
-    logFileName = 'Ramsey_10.31' #this is the name of the CSV that the data will save under. to make a new CSV, just input an unused name.
     # black_pixel_dwell_time = [25.0e-6, 30.0e-6, 35.0e-6, 40.0e-6, 45.0e-6,50.0e-6]
-    black_pixel_count = 11020.0
-
-    logFile = open('logs/' + logFileName + '.csv', 'a', newline='')
+    
     logWriter = csv.writer(logFile, delimiter=',')
     logWriter.writerow([runDate.strftime('%Y-%m-%d %H:%M:%S')])
     logWriter.writerow(['x','y','image_filename','exposure_time','black_pixel_dwell_time'])
     # filename = 'vassar_seal_test1.png'
 
-    phenom = ppi.Phenom('192.168.200.101','MVE08554410904L','4JCMC472P911') #instrument IP address, license for software, password
+    
     # phenom = ppi.Phenom('Simulator','','')
-    # define the pattern
-    vm = phenom.GetSemViewingMode() #makes instrument tell what mode/makes beam available
-    pat = ppi.Patterning.BitmapScanPattern() #Writes an image. (Instead of a point or rectangle) for more info see ppi-patterning doc from vince
+    
     pat.SetImage(ppi.Load(filename)) #taking image, make it available for scanning
-    pat.maskColor = ppi.Bgra32(255, 255, 255, 255) #assuming its making the color associate with depth. "any pixel matching this color will be skipped"- ppi-patterning doc from vince
-    pat.center = ppi.Position(+0.0, +0.0) #tells to start pattern from the center
+    
     # pat.size = ppi.SizeD(0.1, 0.1) # maybe change this if the image is not rectangular, 50 microns. These all set the size of the image, units unclear. the associated true size is commented in each version of this line, associated with 2k magnification
     pat.size = ppi.SizeD(0.2, 0.2) # maybe change this if the image is not rectangular, 50 microns. These all set the size of the image, units unclear. the associated true size is commented in each version of this line, associated with 2k magnification
     #pat.size = ppi.SizeD(0.288, 0.288) #72 microns, 2k
@@ -110,12 +118,12 @@ for filename in fileNames:
 
     # increment = -0.15e-3 # meters for space between tests (to the right)
 
-    phenom.MoveBy(offset[0], offset[1])
     for i in range(len(exposureTimes)):
         print('%s -- %f seconds...' % (filename, exposureTimes[i]))
         # set_scanpattern(exposureTimes[i]/float(black_pixel_count))
-        logWriter.writerow([offset[0] + increment*i, offset[1], filename, exposureTimes[i], exposureTimes[i]/float(black_pixel_count)])
+        logWriter.writerow([currentPos[0],currentPos[1], filename, exposureTimes[i], exposureTimes[i]/float(black_pixel_count)])
         if i != 0:
+            currentPos[0] = currentPos[0]+increment
             phenom.MoveBy(increment, 0)
         time.sleep(exposureTimes[i])
         # NB: the Phenom will keep repeating the (meta)pattern until
@@ -123,13 +131,15 @@ for filename in fileNames:
         # If you are dealing with sensitive samples, maybe you want to
         # pattern for a fixed amount of time and then blank the beam.
     print('done with all test exposures for %s.' % filename)
-    print('Returning to original position...')
+    print('moving to next row')
+    currentPos[0] = currentPos[0]-increment*(len(exposureTimes-1))
+    currentPos[1] = currentPos[1]+yincrement
     phenom.MoveBy(-(len(exposureTimes) - 1)*increment, yincrement) # move back the increments
     #phenom.MoveBy(-offset[0], -offset[1]) # move back the offset
     vm.scanMode = ppi.ScanMode.Imaging
     phenom.SetSemViewingMode(vm)
 
-    print('positions used (relative to starting point):')
-    for i in range(len(exposureTimes)):
-        print('    (%f,%f)' % (i*increment + offset[0], offset[1]))
+    # print('positions used (relative to starting point):')
+    # for i in range(len(exposureTimes)):
+    #     print('    (%f,%f)' % (i*increment + offset[0], offset[1]))
 
