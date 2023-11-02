@@ -1,0 +1,290 @@
+2023-05-30 11:01:17
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0005,images/test_res_1.png,1.4524,0.00013167724388032638
+2023-05-30 11:02:07
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.0005,images/test_res_1.png,2.9048,0.00026335448776065276
+2023-05-30 11:02:52
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.0005,images/test_res_1.png,4.3572,0.00039503173164097914
+2023-05-30 11:03:31
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.0005,images/test_res_1.png,5.8096,0.0005271869328493647
+2023-05-30 11:04:21
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/test_res_2.png,1.3114,0.00011900181488203265
+2023-05-30 11:04:45
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00075,images/test_res_2.png,2.6228,0.0002380036297640653
+2023-05-30 11:05:19
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00075,images/test_res_2.png,3.9342,0.000357005444646098
+2023-05-30 11:05:56
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00075,images/test_res_2.png,5.2456,0.0004760072595281306
+2023-05-30 11:06:50
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/test_res_3.png,1.2688,0.00011513611615245009
+2023-05-30 11:07:44
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.001,images/test_res_3.png,2.5377,0.00023028130671506352
+2023-05-30 11:08:07
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.001,images/test_res_3.png,3.8066,0.00034542649727767696
+2023-05-30 11:08:35
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.001,images/test_res_3.png,5.0755,0.0004605716878402904
+2023-05-30 11:09:16
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/test_res_4.png,1.3474,0.00012226860254083483
+2023-05-30 11:09:39
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00125,images/test_res_4.png,2.6948,0.00024453720508166966
+2023-05-30 11:10:01
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00125,images/test_res_4.png,4.0422,0.00036680580762250457
+2023-05-30 11:10:29
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00125,images/test_res_4.png,5.3897,0.0004890834845735027
+2023-05-31 10:32:19
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0005,images/test_res_1.png,7.262,0.0006589836660617059
+2023-05-31 10:33:03
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.0005,images/test_res_1.png,8.7144,0.0007907803992740471
+2023-05-31 10:33:38
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.0005,images/test_res_1.png,10.1668,0.0009225771324863885
+2023-05-31 10:34:25
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.0005,images/test_res_1.png,11.6192,0.0010543738656987294
+2023-05-31 10:35:42
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.0005,images/test_res_1.png,13.0716,0.0011861705989110708
+2023-05-31 10:36:23
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.0005,images/test_res_1.png,14.524,0.0013179673321234119
+2023-05-31 10:48:37
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/test_res_2.png,6.557,0.0005950090744101633
+2023-05-31 10:49:21
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00075,images/test_res_2.png,7.8684,0.000714010889292196
+2023-05-31 10:50:36
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00075,images/test_res_2.png,9.1797,0.0008330036297640654
+2023-05-31 10:51:14
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00075,images/test_res_2.png,10.4912,0.0009520145190562612
+2023-05-31 10:51:48
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.00075,images/test_res_2.png,11.8026,0.001071016333938294
+2023-05-31 10:52:32
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.00075,images/test_res_2.png,13.114,0.0011900181488203267
+2023-05-31 10:54:45
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/test_res_3.png,6.3443,0.0005757078039927404
+2023-05-31 10:55:20
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.001,images/test_res_3.png,7.6132,0.0006908529945553539
+2023-05-31 10:55:52
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.001,images/test_res_3.png,8.8821,0.0008059981851179673
+2023-05-31 10:56:28
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.001,images/test_res_3.png,10.151,0.0009211433756805807
+2023-05-31 10:57:07
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.001,images/test_res_3.png,11.4198,0.0010362794918330309
+2023-05-31 10:57:51
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.001,images/test_res_3.png,12.6887,0.0011514246823956444
+2023-05-31 10:58:47
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/test_res_4.png,6.7371,0.0006113520871143376
+2023-05-31 10:59:16
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00125,images/test_res_4.png,8.0845,0.0007336206896551724
+2023-05-31 10:59:41
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00125,images/test_res_4.png,9.4319,0.0008558892921960073
+2023-05-31 11:00:10
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00125,images/test_res_4.png,10.7794,0.0009781669691470054
+2023-05-31 11:00:56
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.00125,images/test_res_4.png,12.1268,0.0011004355716878402
+2023-05-31 11:01:31
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.00125,images/test_res_4.png,13.4742,0.0012227041742286751
+2023-05-31 11:25:41
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0005,images/test_res_1.png,7.262,0.0006589836660617059
+2023-05-31 11:26:26
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.0005,images/test_res_1.png,8.7144,0.0007907803992740471
+2023-05-31 11:27:05
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.0005,images/test_res_1.png,10.1668,0.0009225771324863885
+2023-05-31 11:27:48
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.0005,images/test_res_1.png,11.6192,0.0010543738656987294
+2023-05-31 11:28:30
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.0005,images/test_res_1.png,13.0716,0.0011861705989110708
+2023-05-31 11:29:44
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.0005,images/test_res_1.png,14.524,0.0013179673321234119
+2023-05-31 11:32:13
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/test_res_2.png,6.557,0.0005950090744101633
+2023-05-31 11:33:04
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00075,images/test_res_2.png,7.8684,0.000714010889292196
+2023-05-31 11:34:03
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00075,images/test_res_2.png,9.1797,0.0008330036297640654
+2023-05-31 11:34:46
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00075,images/test_res_2.png,10.4912,0.0009520145190562612
+2023-05-31 11:35:32
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.00075,images/test_res_2.png,11.8026,0.001071016333938294
+2023-05-31 11:36:05
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.00075,images/test_res_2.png,13.114,0.0011900181488203267
+2023-05-31 11:36:41
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/test_res_2.png,16.3443,0.0014831488203266789
+2023-05-31 11:38:43
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.001,images/test_res_2.png,6.3443,0.0005757078039927404
+2023-05-31 11:39:22
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.001,images/test_res_2.png,7.6132,0.0006908529945553539
+2023-05-31 11:39:44
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.001,images/test_res_2.png,8.8821,0.0008059981851179673
+2023-05-31 11:40:13
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.001,images/test_res_2.png,10.151,0.0009211433756805807
+2023-05-31 11:41:03
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.001,images/test_res_3.png,11.4198,0.0010362794918330309
+2023-05-31 11:41:36
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0009,0.001,images/test_res_3.png,12.6887,0.0011514246823956444
+2023-05-31 11:42:29
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/test_res_4.png,6.7371,0.0006113520871143376
+2023-05-31 11:42:57
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00125,images/test_res_4.png,8.0845,0.0007336206896551724
+2023-05-31 11:43:23
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00125,images/test_res_4.png,9.4319,0.0008558892921960073
+2023-05-31 11:43:52
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00125,images/test_res_4.png,10.7794,0.0009781669691470054
+2023-05-31 11:45:13
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.00125,images/test_res_4.png,12.1268,0.0011004355716878402
+2023-05-31 11:45:46
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.00125,images/test_res_4.png,13.4742,0.0012227041742286751
+2023-06-01 13:28:04
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0005,images/test_res_1.png,6.1001,0.0005535480943738658
+2023-06-01 13:28:36
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.0005,images/test_res_1.png,7.5525,0.0006853448275862069
+2023-06-01 13:29:02
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.0005,images/test_res_1.png,9.0049,0.0008171415607985481
+2023-06-01 13:29:38
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.0005,images/test_res_1.png,10.4573,0.0009489382940108893
+2023-06-01 13:30:12
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.0005,images/test_res_1.png,11.9097,0.0010807350272232306
+2023-06-01 13:30:40
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.0005,images/test_res_1.png,13.3621,0.0012125317604355717
+2023-06-01 13:31:10
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0009,0.0005,images/test_res_1.png,14.8145,0.001344328493647913
+2023-06-01 13:32:08
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/test_res_2.png,5.5078,0.0004998003629764065
+2023-06-01 13:32:43
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00075,images/test_res_2.png,6.8192,0.0006188021778584392
+2023-06-01 13:33:13
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00075,images/test_res_2.png,8.1306,0.0007378039927404718
+2023-06-01 13:33:53
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00075,images/test_res_2.png,9.442,0.0008568058076225046
+2023-06-01 13:34:38
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.00075,images/test_res_2.png,10.7534,0.0009758076225045372
+2023-06-01 13:35:13
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.00075,images/test_res_2.png,12.0648,0.0010948094373865699
+2023-06-01 13:35:39
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0009,0.00075,images/test_res_2.png,13.3762,0.0012138112522686027
+2023-06-01 13:36:57
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/test_res_3.png,5.3292,0.0004835934664246824
+2023-06-01 13:37:21
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.001,images/test_res_3.png,6.5981,0.0005987386569872958
+2023-06-01 13:37:44
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.001,images/test_res_3.png,7.867,0.0007138838475499093
+2023-06-01 13:38:17
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.001,images/test_res_3.png,9.1358,0.0008290199637023593
+2023-06-01 13:38:39
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.001,images/test_res_3.png,10.4047,0.0009441651542649728
+2023-06-01 13:39:05
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.001,images/test_res_3.png,11.6736,0.0010593103448275863
+2023-06-01 13:39:27
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0009,0.001,images/test_res_3.png,12.9425,0.0011744555353901997
+2023-06-01 13:40:04
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/test_res_4.png,5.6591,0.000513529945553539
+2023-06-01 13:40:40
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00125,images/test_res_4.png,7.006,0.0006357531760435572
+2023-06-01 13:41:01
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00125,images/test_res_4.png,8.354,0.000758076225045372
+2023-06-01 13:41:30
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00125,images/test_res_4.png,9.7014,0.0008803448275862068
+2023-06-01 13:41:54
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0006,0.00125,images/test_res_4.png,11.0488,0.0010026134301270417
+2023-06-01 13:42:28
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00075,0.00125,images/test_res_4.png,12.3963,0.0011248911070780398
+2023-06-01 13:43:16
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0009,0.00125,images/test_res_4.png,13.7437,0.0012471597096188748
+2023-06-01 13:53:06
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-01 13:56:02
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+-0.00015,0.000625,images/test_res_1.png,6.1001,0.0005535480943738658
+-0.0003,0.000625,images/test_res_1.png,7.5525,0.0006853448275862069
+-0.00045,0.000625,images/test_res_1.png,9.0049,0.0008171415607985481
+-0.0006,0.000625,images/test_res_1.png,10.4573,0.0009489382940108893
+-0.0007499999999999999,0.000625,images/test_res_1.png,11.9097,0.0010807350272232306
+-0.0008999999999999999,0.000625,images/test_res_1.png,13.3621,0.0012125317604355717
+-0.00105,0.000625,images/test_res_1.png,14.814499999999999,0.0013443284936479128

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module PyPhenom.Stitch</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title"><a href="PyPhenom.html" class="white">PyPhenom</a>.Stitch</strong></td>
+<td class="extra"><a href=".">index</a><br>(built-in)</td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text">Boost.Python.instance(<a href="builtins.html#object">builtins.object</a>)
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="PyPhenom.Stitch.html#TileLoader">TileLoader</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="PyPhenom.Stitch.html#MemoryTileLoader">MemoryTileLoader</a>
+</dt></dl>
+</dd>
+<dt class="heading-text"><a href="PyPhenom.Stitch.html#TilePlacer">TilePlacer</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="PyPhenom.Stitch.html#OptimalTilePlacer">OptimalTilePlacer</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Stitch.html#TrivialTilePlacer">TrivialTilePlacer</a>
+</dt></dl>
+</dd>
+<dt class="heading-text"><a href="PyPhenom.Stitch.html#TileWriter">TileWriter</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="PyPhenom.Stitch.html#AcquisitionTileWriter">AcquisitionTileWriter</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Stitch.html#DziTileWriter">DziTileWriter</a>
+</dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="AcquisitionTileWriter">class <strong>AcquisitionTileWriter</strong></a>(<a href="PyPhenom.Stitch.html#TileWriter">TileWriter</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Class&nbsp;which&nbsp;writes&nbsp;tiles&nbsp;to&nbsp;an&nbsp;in&nbsp;memory&nbsp;Acquisition,&nbsp;to&nbsp;be&nbsp;used&nbsp;with&nbsp;StitchOuter&nbsp;or&nbsp;StitchInner.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Stitch.html#AcquisitionTileWriter">AcquisitionTileWriter</a></dd>
+<dd><a href="PyPhenom.Stitch.html#TileWriter">TileWriter</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="AcquisitionTileWriter-GetResult"><strong>GetResult</strong></a>(...)</dt><dd><span class="code"><a href="#AcquisitionTileWriter-GetResult">GetResult</a>(&nbsp;(<a href="#AcquisitionTileWriter">AcquisitionTileWriter</a>)arg1)&nbsp;-&gt;&nbsp;Acquisition</span></dd></dl>
+
+<dl><dt><a name="AcquisitionTileWriter-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#AcquisitionTileWriter-__init__">__init__</a>(&nbsp;(object)arg1,&nbsp;(Size)outputTileSize)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="AcquisitionTileWriter-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 88</dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="AcquisitionTileWriter-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="DziTileWriter">class <strong>DziTileWriter</strong></a>(<a href="PyPhenom.Stitch.html#TileWriter">TileWriter</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Class&nbsp;which&nbsp;writes&nbsp;tiles&nbsp;to&nbsp;disk&nbsp;in&nbsp;the&nbsp;DZI&nbsp;format,&nbsp;to&nbsp;be&nbsp;used&nbsp;with&nbsp;StitchOuter&nbsp;or&nbsp;StitchInner.<br>
+Construct&nbsp;with&nbsp;path,&nbsp;image&nbsp;extension,&nbsp;dziTileSize<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Stitch.html#DziTileWriter">DziTileWriter</a></dd>
+<dd><a href="PyPhenom.Stitch.html#TileWriter">TileWriter</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="DziTileWriter-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#DziTileWriter-__init__">__init__</a>(&nbsp;(object)arg1,&nbsp;(str)path&nbsp;[,&nbsp;(str)ext='.tiff'&nbsp;[,&nbsp;(int)dziTileSize=256]])&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="DziTileWriter-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 40</dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="DziTileWriter-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="MemoryTileLoader">class <strong>MemoryTileLoader</strong></a>(<a href="PyPhenom.Stitch.html#TileLoader">TileLoader</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Class&nbsp;which&nbsp;holds&nbsp;acquisitions&nbsp;in&nbsp;memory,&nbsp;to&nbsp;be&nbsp;used&nbsp;with&nbsp;StitchOuter&nbsp;or&nbsp;StitchInner.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Stitch.html#MemoryTileLoader">MemoryTileLoader</a></dd>
+<dd><a href="PyPhenom.Stitch.html#TileLoader">TileLoader</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="MemoryTileLoader-Add"><strong>Add</strong></a>(...)</dt><dd><span class="code"><a href="#MemoryTileLoader-Add">Add</a>(&nbsp;(<a href="#MemoryTileLoader">MemoryTileLoader</a>)arg1,&nbsp;(int)row,&nbsp;(int)column,&nbsp;(Acquisition)acquisition)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="MemoryTileLoader-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#MemoryTileLoader-__init__">__init__</a>(&nbsp;(object)arg1,&nbsp;(int)overlap)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="MemoryTileLoader-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 40</dl>
+
+<hr>
+Static methods inherited from <a href="PyPhenom.Stitch.html#TileLoader">TileLoader</a>:<br>
+<dl><dt><a name="MemoryTileLoader-InputTileSize"><strong>InputTileSize</strong></a>(...)</dt><dd><span class="code"><a href="#MemoryTileLoader-InputTileSize">InputTileSize</a>(&nbsp;(<a href="#TileLoader">TileLoader</a>)arg1)&nbsp;-&gt;&nbsp;Size</span></dd></dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="MemoryTileLoader-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="OptimalTilePlacer">class <strong>OptimalTilePlacer</strong></a>(<a href="PyPhenom.Stitch.html#TilePlacer">TilePlacer</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Class&nbsp;which&nbsp;determines&nbsp;tile&nbsp;placement&nbsp;for&nbsp;tile&nbsp;stitching&nbsp;with&nbsp;optimal&nbsp;tile&nbsp;placementConstruct&nbsp;with&nbsp;<a href="#TileLoader">TileLoader</a><br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Stitch.html#OptimalTilePlacer">OptimalTilePlacer</a></dd>
+<dd><a href="PyPhenom.Stitch.html#TilePlacer">TilePlacer</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="OptimalTilePlacer-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#OptimalTilePlacer-__init__">__init__</a>(&nbsp;(object)arg1,&nbsp;(<a href="#TileLoader">TileLoader</a>)tileLoader)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="OptimalTilePlacer-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 40</dl>
+
+<hr>
+Static methods inherited from <a href="PyPhenom.Stitch.html#TilePlacer">TilePlacer</a>:<br>
+<dl><dt><a name="OptimalTilePlacer-AddTile"><strong>AddTile</strong></a>(...)</dt><dd><span class="code"><a href="#OptimalTilePlacer-AddTile">AddTile</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="OptimalTilePlacer-GetNominalTilePosition"><strong>GetNominalTilePosition</strong></a>(...)</dt><dd><span class="code"><a href="#OptimalTilePlacer-GetNominalTilePosition">GetNominalTilePosition</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;Position</span></dd></dl>
+
+<dl><dt><a name="OptimalTilePlacer-GetTilePosition"><strong>GetTilePosition</strong></a>(...)</dt><dd><span class="code"><a href="#OptimalTilePlacer-GetTilePosition">GetTilePosition</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;Position</span></dd></dl>
+
+<dl><dt><a name="OptimalTilePlacer-ImageSize"><strong>ImageSize</strong></a>(...)</dt><dd><span class="code"><a href="#OptimalTilePlacer-ImageSize">ImageSize</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Size</span></dd></dl>
+
+<dl><dt><a name="OptimalTilePlacer-InnerRectangle"><strong>InnerRectangle</strong></a>(...)</dt><dd><span class="code"><a href="#OptimalTilePlacer-InnerRectangle">InnerRectangle</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Rectangle</span></dd></dl>
+
+<dl><dt><a name="OptimalTilePlacer-NominalImageRectangle"><strong>NominalImageRectangle</strong></a>(...)</dt><dd><span class="code"><a href="#OptimalTilePlacer-NominalImageRectangle">NominalImageRectangle</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Rectangle</span></dd></dl>
+
+<dl><dt><a name="OptimalTilePlacer-Solve"><strong>Solve</strong></a>(...)</dt><dd><span class="code"><a href="#OptimalTilePlacer-Solve">Solve</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="OptimalTilePlacer-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="TileLoader">class <strong>TileLoader</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Stitch.html#TileLoader">TileLoader</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="TileLoader-InputTileSize"><strong>InputTileSize</strong></a>(...)</dt><dd><span class="code"><a href="#TileLoader-InputTileSize">InputTileSize</a>(&nbsp;(<a href="#TileLoader">TileLoader</a>)arg1)&nbsp;-&gt;&nbsp;Size</span></dd></dl>
+
+<dl><dt><a name="TileLoader-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code">Raises&nbsp;an&nbsp;exception<br>
+This&nbsp;class&nbsp;cannot&nbsp;be&nbsp;instantiated&nbsp;from&nbsp;Python</span></dd></dl>
+
+<dl><dt><a name="TileLoader-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="TileLoader-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="TilePlacer">class <strong>TilePlacer</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Stitch.html#TilePlacer">TilePlacer</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="TilePlacer-AddTile"><strong>AddTile</strong></a>(...)</dt><dd><span class="code"><a href="#TilePlacer-AddTile">AddTile</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="TilePlacer-GetNominalTilePosition"><strong>GetNominalTilePosition</strong></a>(...)</dt><dd><span class="code"><a href="#TilePlacer-GetNominalTilePosition">GetNominalTilePosition</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;Position</span></dd></dl>
+
+<dl><dt><a name="TilePlacer-GetTilePosition"><strong>GetTilePosition</strong></a>(...)</dt><dd><span class="code"><a href="#TilePlacer-GetTilePosition">GetTilePosition</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;Position</span></dd></dl>
+
+<dl><dt><a name="TilePlacer-ImageSize"><strong>ImageSize</strong></a>(...)</dt><dd><span class="code"><a href="#TilePlacer-ImageSize">ImageSize</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Size</span></dd></dl>
+
+<dl><dt><a name="TilePlacer-InnerRectangle"><strong>InnerRectangle</strong></a>(...)</dt><dd><span class="code"><a href="#TilePlacer-InnerRectangle">InnerRectangle</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Rectangle</span></dd></dl>
+
+<dl><dt><a name="TilePlacer-NominalImageRectangle"><strong>NominalImageRectangle</strong></a>(...)</dt><dd><span class="code"><a href="#TilePlacer-NominalImageRectangle">NominalImageRectangle</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Rectangle</span></dd></dl>
+
+<dl><dt><a name="TilePlacer-Solve"><strong>Solve</strong></a>(...)</dt><dd><span class="code"><a href="#TilePlacer-Solve">Solve</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="TilePlacer-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code">Raises&nbsp;an&nbsp;exception<br>
+This&nbsp;class&nbsp;cannot&nbsp;be&nbsp;instantiated&nbsp;from&nbsp;Python</span></dd></dl>
+
+<dl><dt><a name="TilePlacer-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="TilePlacer-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="TileWriter">class <strong>TileWriter</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Stitch.html#TileWriter">TileWriter</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="TileWriter-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code">Raises&nbsp;an&nbsp;exception<br>
+This&nbsp;class&nbsp;cannot&nbsp;be&nbsp;instantiated&nbsp;from&nbsp;Python</span></dd></dl>
+
+<dl><dt><a name="TileWriter-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="TileWriter-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="TrivialTilePlacer">class <strong>TrivialTilePlacer</strong></a>(<a href="PyPhenom.Stitch.html#TilePlacer">TilePlacer</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Class&nbsp;which&nbsp;determines&nbsp;tile&nbsp;placement&nbsp;for&nbsp;tile&nbsp;stitching&nbsp;with&nbsp;nominal&nbsp;tile&nbsp;placement<br>
+Construct&nbsp;with&nbsp;<a href="#TileLoader">TileLoader</a><br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Stitch.html#TrivialTilePlacer">TrivialTilePlacer</a></dd>
+<dd><a href="PyPhenom.Stitch.html#TilePlacer">TilePlacer</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="TrivialTilePlacer-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#TrivialTilePlacer-__init__">__init__</a>(&nbsp;(object)arg1,&nbsp;(<a href="#TileLoader">TileLoader</a>)tileLoader)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="TrivialTilePlacer-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 40</dl>
+
+<hr>
+Static methods inherited from <a href="PyPhenom.Stitch.html#TilePlacer">TilePlacer</a>:<br>
+<dl><dt><a name="TrivialTilePlacer-AddTile"><strong>AddTile</strong></a>(...)</dt><dd><span class="code"><a href="#TrivialTilePlacer-AddTile">AddTile</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="TrivialTilePlacer-GetNominalTilePosition"><strong>GetNominalTilePosition</strong></a>(...)</dt><dd><span class="code"><a href="#TrivialTilePlacer-GetNominalTilePosition">GetNominalTilePosition</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;Position</span></dd></dl>
+
+<dl><dt><a name="TrivialTilePlacer-GetTilePosition"><strong>GetTilePosition</strong></a>(...)</dt><dd><span class="code"><a href="#TrivialTilePlacer-GetTilePosition">GetTilePosition</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1,&nbsp;(int)row,&nbsp;(int)column)&nbsp;-&gt;&nbsp;Position</span></dd></dl>
+
+<dl><dt><a name="TrivialTilePlacer-ImageSize"><strong>ImageSize</strong></a>(...)</dt><dd><span class="code"><a href="#TrivialTilePlacer-ImageSize">ImageSize</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Size</span></dd></dl>
+
+<dl><dt><a name="TrivialTilePlacer-InnerRectangle"><strong>InnerRectangle</strong></a>(...)</dt><dd><span class="code"><a href="#TrivialTilePlacer-InnerRectangle">InnerRectangle</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Rectangle</span></dd></dl>
+
+<dl><dt><a name="TrivialTilePlacer-NominalImageRectangle"><strong>NominalImageRectangle</strong></a>(...)</dt><dd><span class="code"><a href="#TrivialTilePlacer-NominalImageRectangle">NominalImageRectangle</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;Rectangle</span></dd></dl>
+
+<dl><dt><a name="TrivialTilePlacer-Solve"><strong>Solve</strong></a>(...)</dt><dd><span class="code"><a href="#TrivialTilePlacer-Solve">Solve</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="TrivialTilePlacer-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-StitchInner"><strong>StitchInner</strong></a>(...)</dt><dd><span class="code"><a href="#-StitchInner">StitchInner</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)tilePlacer,&nbsp;(<a href="#TileWriter">TileWriter</a>)tileWriter)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+<a href="#-StitchInner">StitchInner</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)tilePlacer,&nbsp;(<a href="#TileLoader">TileLoader</a>)tileLoader,&nbsp;(<a href="#TileWriter">TileWriter</a>)tileWriter)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+ <dl><dt><a name="-StitchOuter"><strong>StitchOuter</strong></a>(...)</dt><dd><span class="code"><a href="#-StitchOuter">StitchOuter</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)tilePlacer,&nbsp;(<a href="#TileWriter">TileWriter</a>)tileWriter)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+<a href="#-StitchOuter">StitchOuter</a>(&nbsp;(<a href="#TilePlacer">TilePlacer</a>)tilePlacer,&nbsp;(<a href="#TileLoader">TileLoader</a>)tileLoader,&nbsp;(<a href="#TileWriter">TileWriter</a>)tileWriter)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+</td></tr></table>
+</body></html>

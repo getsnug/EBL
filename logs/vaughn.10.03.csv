@@ -1,0 +1,30 @@
+2023-10-03 14:54:22
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/vaughn/fiftysmall.png,5.0,0.00045372050816696913
+0.00015,0.00075,images/vaughn/fiftysmall.png,10.0,0.0009074410163339383
+0.0003,0.00075,images/vaughn/fiftysmall.png,15.0,0.0013611615245009074
+0.00045,0.00075,images/vaughn/fiftysmall.png,20.0,0.0018148820326678765
+2023-10-03 14:56:02
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/vaughn/25.png,5.0,0.00045372050816696913
+0.00015,0.001,images/vaughn/25.png,10.0,0.0009074410163339383
+0.0003,0.001,images/vaughn/25.png,15.0,0.0013611615245009074
+0.00045,0.001,images/vaughn/25.png,20.0,0.0018148820326678765
+2023-10-03 14:57:43
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/vaughn/15.png,5.0,0.00045372050816696913
+0.00015,0.00125,images/vaughn/15.png,10.0,0.0009074410163339383
+0.0003,0.00125,images/vaughn/15.png,15.0,0.0013611615245009074
+0.00045,0.00125,images/vaughn/15.png,20.0,0.0018148820326678765
+2023-10-03 14:59:22
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0015,images/vaughn/15full.png,5.0,0.00045372050816696913
+0.00015,0.0015,images/vaughn/15full.png,10.0,0.0009074410163339383
+0.0003,0.0015,images/vaughn/15full.png,15.0,0.0013611615245009074
+0.00045,0.0015,images/vaughn/15full.png,20.0,0.0018148820326678765
+2023-10-03 15:01:00
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00175,images/vaughn/3-1.png,5.0,0.00045372050816696913
+0.00015,0.00175,images/vaughn/3-1.png,10.0,0.0009074410163339383
+0.0003,0.00175,images/vaughn/3-1.png,15.0,0.0013611615245009074
+0.00045,0.00175,images/vaughn/3-1.png,20.0,0.0018148820326678765

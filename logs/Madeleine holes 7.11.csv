@@ -1,0 +1,559 @@
+2023-07-11 11:09:25
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0005,images/Madeleine holes/2D/-4holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.0005,images/Madeleine holes/2D/-4holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.0005,images/Madeleine holes/2D/-4holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.0005,images/Madeleine holes/2D/-4holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.0005,images/Madeleine holes/2D/-4holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.0005,images/Madeleine holes/2D/-4holes2D.png,1.25,0.00011343012704174228
+0.0009,0.0005,images/Madeleine holes/2D/-4holes2D.png,1.5,0.00013611615245009076
+0.00105,0.0005,images/Madeleine holes/2D/-4holes2D.png,2.0,0.00018148820326678765
+0.0012,0.0005,images/Madeleine holes/2D/-4holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.0005,images/Madeleine holes/2D/-4holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.0005,images/Madeleine holes/2D/-4holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:09:49
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/Madeleine holes/2D/-3holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.00075,images/Madeleine holes/2D/-3holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.00075,images/Madeleine holes/2D/-3holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.00075,images/Madeleine holes/2D/-3holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.00075,images/Madeleine holes/2D/-3holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.00075,images/Madeleine holes/2D/-3holes2D.png,1.25,0.00011343012704174228
+0.0009,0.00075,images/Madeleine holes/2D/-3holes2D.png,1.5,0.00013611615245009076
+0.00105,0.00075,images/Madeleine holes/2D/-3holes2D.png,2.0,0.00018148820326678765
+0.0012,0.00075,images/Madeleine holes/2D/-3holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.00075,images/Madeleine holes/2D/-3holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.00075,images/Madeleine holes/2D/-3holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:10:17
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/Madeleine holes/2D/-2holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.001,images/Madeleine holes/2D/-2holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.001,images/Madeleine holes/2D/-2holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.001,images/Madeleine holes/2D/-2holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.001,images/Madeleine holes/2D/-2holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.001,images/Madeleine holes/2D/-2holes2D.png,1.25,0.00011343012704174228
+0.0009,0.001,images/Madeleine holes/2D/-2holes2D.png,1.5,0.00013611615245009076
+0.00105,0.001,images/Madeleine holes/2D/-2holes2D.png,2.0,0.00018148820326678765
+0.0012,0.001,images/Madeleine holes/2D/-2holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.001,images/Madeleine holes/2D/-2holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.001,images/Madeleine holes/2D/-2holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:10:46
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/Madeleine holes/2D/-1holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.00125,images/Madeleine holes/2D/-1holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.00125,images/Madeleine holes/2D/-1holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.00125,images/Madeleine holes/2D/-1holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.00125,images/Madeleine holes/2D/-1holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.00125,images/Madeleine holes/2D/-1holes2D.png,1.25,0.00011343012704174228
+0.0009,0.00125,images/Madeleine holes/2D/-1holes2D.png,1.5,0.00013611615245009076
+0.00105,0.00125,images/Madeleine holes/2D/-1holes2D.png,2.0,0.00018148820326678765
+0.0012,0.00125,images/Madeleine holes/2D/-1holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.00125,images/Madeleine holes/2D/-1holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.00125,images/Madeleine holes/2D/-1holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:11:17
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0015,images/Madeleine holes/2D/0holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.0015,images/Madeleine holes/2D/0holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.0015,images/Madeleine holes/2D/0holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.0015,images/Madeleine holes/2D/0holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.0015,images/Madeleine holes/2D/0holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.0015,images/Madeleine holes/2D/0holes2D.png,1.25,0.00011343012704174228
+0.0009,0.0015,images/Madeleine holes/2D/0holes2D.png,1.5,0.00013611615245009076
+0.00105,0.0015,images/Madeleine holes/2D/0holes2D.png,2.0,0.00018148820326678765
+0.0012,0.0015,images/Madeleine holes/2D/0holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.0015,images/Madeleine holes/2D/0holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.0015,images/Madeleine holes/2D/0holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:11:45
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00175,images/Madeleine holes/2D/1holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.00175,images/Madeleine holes/2D/1holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.00175,images/Madeleine holes/2D/1holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.00175,images/Madeleine holes/2D/1holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.00175,images/Madeleine holes/2D/1holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.00175,images/Madeleine holes/2D/1holes2D.png,1.25,0.00011343012704174228
+0.0009,0.00175,images/Madeleine holes/2D/1holes2D.png,1.5,0.00013611615245009076
+0.00105,0.00175,images/Madeleine holes/2D/1holes2D.png,2.0,0.00018148820326678765
+0.0012,0.00175,images/Madeleine holes/2D/1holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.00175,images/Madeleine holes/2D/1holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.00175,images/Madeleine holes/2D/1holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:12:10
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.002,images/Madeleine holes/2D/2holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.002,images/Madeleine holes/2D/2holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.002,images/Madeleine holes/2D/2holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.002,images/Madeleine holes/2D/2holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.002,images/Madeleine holes/2D/2holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.002,images/Madeleine holes/2D/2holes2D.png,1.25,0.00011343012704174228
+0.0009,0.002,images/Madeleine holes/2D/2holes2D.png,1.5,0.00013611615245009076
+0.00105,0.002,images/Madeleine holes/2D/2holes2D.png,2.0,0.00018148820326678765
+0.0012,0.002,images/Madeleine holes/2D/2holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.002,images/Madeleine holes/2D/2holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.002,images/Madeleine holes/2D/2holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:12:33
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00225,images/Madeleine holes/2D/3holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.00225,images/Madeleine holes/2D/3holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.00225,images/Madeleine holes/2D/3holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.00225,images/Madeleine holes/2D/3holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.00225,images/Madeleine holes/2D/3holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.00225,images/Madeleine holes/2D/3holes2D.png,1.25,0.00011343012704174228
+0.0009,0.00225,images/Madeleine holes/2D/3holes2D.png,1.5,0.00013611615245009076
+0.00105,0.00225,images/Madeleine holes/2D/3holes2D.png,2.0,0.00018148820326678765
+0.0012,0.00225,images/Madeleine holes/2D/3holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.00225,images/Madeleine holes/2D/3holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.00225,images/Madeleine holes/2D/3holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:12:55
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0025,images/Madeleine holes/2D/4holes2D.png,0.05,4.537205081669692e-06
+0.00015,0.0025,images/Madeleine holes/2D/4holes2D.png,0.25,2.2686025408348456e-05
+0.0003,0.0025,images/Madeleine holes/2D/4holes2D.png,0.5,4.537205081669691e-05
+0.00045,0.0025,images/Madeleine holes/2D/4holes2D.png,0.75,6.805807622504538e-05
+0.0006,0.0025,images/Madeleine holes/2D/4holes2D.png,1.0,9.074410163339382e-05
+0.0007499999999999999,0.0025,images/Madeleine holes/2D/4holes2D.png,1.25,0.00011343012704174228
+0.0009,0.0025,images/Madeleine holes/2D/4holes2D.png,1.5,0.00013611615245009076
+0.00105,0.0025,images/Madeleine holes/2D/4holes2D.png,2.0,0.00018148820326678765
+0.0012,0.0025,images/Madeleine holes/2D/4holes2D.png,2.5,0.00022686025408348456
+0.0013499999999999999,0.0025,images/Madeleine holes/2D/4holes2D.png,3.0,0.0002722323049001815
+0.0014999999999999998,0.0025,images/Madeleine holes/2D/4holes2D.png,5.0,0.00045372050816696913
+2023-07-11 11:18:55
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.00275,images/Madeleine holes/2D/-4holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.00275,images/Madeleine holes/2D/-4holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:20:00
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.003,images/Madeleine holes/2D/-3holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.003,images/Madeleine holes/2D/-3holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.003,images/Madeleine holes/2D/-3holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.003,images/Madeleine holes/2D/-3holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.003,images/Madeleine holes/2D/-3holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.003,images/Madeleine holes/2D/-3holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.003,images/Madeleine holes/2D/-3holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.003,images/Madeleine holes/2D/-3holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.003,images/Madeleine holes/2D/-3holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.003,images/Madeleine holes/2D/-3holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.003,images/Madeleine holes/2D/-3holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:20:47
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.00325,images/Madeleine holes/2D/-2holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.00325,images/Madeleine holes/2D/-2holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:20:56
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.0035,images/Madeleine holes/2D/-1holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.0035,images/Madeleine holes/2D/-1holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:21:04
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.00375,images/Madeleine holes/2D/0holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.00375,images/Madeleine holes/2D/0holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.00375,images/Madeleine holes/2D/0holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.00375,images/Madeleine holes/2D/0holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.00375,images/Madeleine holes/2D/0holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.00375,images/Madeleine holes/2D/0holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.00375,images/Madeleine holes/2D/0holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.00375,images/Madeleine holes/2D/0holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.00375,images/Madeleine holes/2D/0holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.00375,images/Madeleine holes/2D/0holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.00375,images/Madeleine holes/2D/0holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:21:22
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.004,images/Madeleine holes/2D/1holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.004,images/Madeleine holes/2D/1holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.004,images/Madeleine holes/2D/1holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.004,images/Madeleine holes/2D/1holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.004,images/Madeleine holes/2D/1holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.004,images/Madeleine holes/2D/1holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.004,images/Madeleine holes/2D/1holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.004,images/Madeleine holes/2D/1holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.004,images/Madeleine holes/2D/1holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.004,images/Madeleine holes/2D/1holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.004,images/Madeleine holes/2D/1holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:21:31
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.00425,images/Madeleine holes/2D/2holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.00425,images/Madeleine holes/2D/2holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.00425,images/Madeleine holes/2D/2holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.00425,images/Madeleine holes/2D/2holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.00425,images/Madeleine holes/2D/2holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.00425,images/Madeleine holes/2D/2holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.00425,images/Madeleine holes/2D/2holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.00425,images/Madeleine holes/2D/2holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.00425,images/Madeleine holes/2D/2holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.00425,images/Madeleine holes/2D/2holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.00425,images/Madeleine holes/2D/2holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:21:43
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.0045,images/Madeleine holes/2D/3holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.0045,images/Madeleine holes/2D/3holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.0045,images/Madeleine holes/2D/3holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.0045,images/Madeleine holes/2D/3holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.0045,images/Madeleine holes/2D/3holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.0045,images/Madeleine holes/2D/3holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.0045,images/Madeleine holes/2D/3holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.0045,images/Madeleine holes/2D/3holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.0045,images/Madeleine holes/2D/3holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.0045,images/Madeleine holes/2D/3holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.0045,images/Madeleine holes/2D/3holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:21:51
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0001,0.00475,images/Madeleine holes/2D/4holes2D.png,0.01,9.074410163339383e-07
+0.00025,0.00475,images/Madeleine holes/2D/4holes2D.png,0.05,4.537205081669692e-06
+0.00039999999999999996,0.00475,images/Madeleine holes/2D/4holes2D.png,0.1,9.074410163339384e-06
+0.00055,0.00475,images/Madeleine holes/2D/4holes2D.png,0.15,1.3611615245009074e-05
+0.0007,0.00475,images/Madeleine holes/2D/4holes2D.png,0.2,1.8148820326678767e-05
+0.00085,0.00475,images/Madeleine holes/2D/4holes2D.png,0.25,2.2686025408348456e-05
+0.001,0.00475,images/Madeleine holes/2D/4holes2D.png,0.3,2.7223230490018148e-05
+0.00115,0.00475,images/Madeleine holes/2D/4holes2D.png,0.4,3.6297640653357535e-05
+0.0013,0.00475,images/Madeleine holes/2D/4holes2D.png,0.5,4.537205081669691e-05
+0.00145,0.00475,images/Madeleine holes/2D/4holes2D.png,0.6,5.4446460980036295e-05
+0.0015999999999999999,0.00475,images/Madeleine holes/2D/4holes2D.png,1.0,9.074410163339382e-05
+2023-07-11 11:31:42
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.005,images/Madeleine holes/topograt/-4grat.png,0.005,4.5372050816696915e-07
+0.00015,0.005,images/Madeleine holes/topograt/-4grat.png,0.025,2.268602540834846e-06
+0.0003,0.005,images/Madeleine holes/topograt/-4grat.png,0.05,4.537205081669692e-06
+0.00045,0.005,images/Madeleine holes/topograt/-4grat.png,0.075,6.805807622504537e-06
+0.0006,0.005,images/Madeleine holes/topograt/-4grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.005,images/Madeleine holes/topograt/-4grat.png,0.125,1.1343012704174228e-05
+0.0009,0.005,images/Madeleine holes/topograt/-4grat.png,0.15,1.3611615245009074e-05
+0.00105,0.005,images/Madeleine holes/topograt/-4grat.png,0.2,1.8148820326678767e-05
+0.0012,0.005,images/Madeleine holes/topograt/-4grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.005,images/Madeleine holes/topograt/-4grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.005,images/Madeleine holes/topograt/-4grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:31:51
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00525,images/Madeleine holes/topograt/-3grat.png,0.005,4.5372050816696915e-07
+0.00015,0.00525,images/Madeleine holes/topograt/-3grat.png,0.025,2.268602540834846e-06
+0.0003,0.00525,images/Madeleine holes/topograt/-3grat.png,0.05,4.537205081669692e-06
+0.00045,0.00525,images/Madeleine holes/topograt/-3grat.png,0.075,6.805807622504537e-06
+0.0006,0.00525,images/Madeleine holes/topograt/-3grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.00525,images/Madeleine holes/topograt/-3grat.png,0.125,1.1343012704174228e-05
+0.0009,0.00525,images/Madeleine holes/topograt/-3grat.png,0.15,1.3611615245009074e-05
+0.00105,0.00525,images/Madeleine holes/topograt/-3grat.png,0.2,1.8148820326678767e-05
+0.0012,0.00525,images/Madeleine holes/topograt/-3grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.00525,images/Madeleine holes/topograt/-3grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.00525,images/Madeleine holes/topograt/-3grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:31:58
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0055,images/Madeleine holes/topograt/-2grat.png,0.005,4.5372050816696915e-07
+0.00015,0.0055,images/Madeleine holes/topograt/-2grat.png,0.025,2.268602540834846e-06
+0.0003,0.0055,images/Madeleine holes/topograt/-2grat.png,0.05,4.537205081669692e-06
+0.00045,0.0055,images/Madeleine holes/topograt/-2grat.png,0.075,6.805807622504537e-06
+0.0006,0.0055,images/Madeleine holes/topograt/-2grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.0055,images/Madeleine holes/topograt/-2grat.png,0.125,1.1343012704174228e-05
+0.0009,0.0055,images/Madeleine holes/topograt/-2grat.png,0.15,1.3611615245009074e-05
+0.00105,0.0055,images/Madeleine holes/topograt/-2grat.png,0.2,1.8148820326678767e-05
+0.0012,0.0055,images/Madeleine holes/topograt/-2grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.0055,images/Madeleine holes/topograt/-2grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.0055,images/Madeleine holes/topograt/-2grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:32:05
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00575,images/Madeleine holes/topograt/-1grat.png,0.005,4.5372050816696915e-07
+0.00015,0.00575,images/Madeleine holes/topograt/-1grat.png,0.025,2.268602540834846e-06
+0.0003,0.00575,images/Madeleine holes/topograt/-1grat.png,0.05,4.537205081669692e-06
+0.00045,0.00575,images/Madeleine holes/topograt/-1grat.png,0.075,6.805807622504537e-06
+0.0006,0.00575,images/Madeleine holes/topograt/-1grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.00575,images/Madeleine holes/topograt/-1grat.png,0.125,1.1343012704174228e-05
+0.0009,0.00575,images/Madeleine holes/topograt/-1grat.png,0.15,1.3611615245009074e-05
+0.00105,0.00575,images/Madeleine holes/topograt/-1grat.png,0.2,1.8148820326678767e-05
+0.0012,0.00575,images/Madeleine holes/topograt/-1grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.00575,images/Madeleine holes/topograt/-1grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.00575,images/Madeleine holes/topograt/-1grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:32:14
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.006,images/Madeleine holes/topograt/0grat.png,0.005,4.5372050816696915e-07
+0.00015,0.006,images/Madeleine holes/topograt/0grat.png,0.025,2.268602540834846e-06
+0.0003,0.006,images/Madeleine holes/topograt/0grat.png,0.05,4.537205081669692e-06
+0.00045,0.006,images/Madeleine holes/topograt/0grat.png,0.075,6.805807622504537e-06
+0.0006,0.006,images/Madeleine holes/topograt/0grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.006,images/Madeleine holes/topograt/0grat.png,0.125,1.1343012704174228e-05
+0.0009,0.006,images/Madeleine holes/topograt/0grat.png,0.15,1.3611615245009074e-05
+0.00105,0.006,images/Madeleine holes/topograt/0grat.png,0.2,1.8148820326678767e-05
+0.0012,0.006,images/Madeleine holes/topograt/0grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.006,images/Madeleine holes/topograt/0grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.006,images/Madeleine holes/topograt/0grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:32:21
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00625,images/Madeleine holes/topograt/1grat.png,0.005,4.5372050816696915e-07
+0.00015,0.00625,images/Madeleine holes/topograt/1grat.png,0.025,2.268602540834846e-06
+0.0003,0.00625,images/Madeleine holes/topograt/1grat.png,0.05,4.537205081669692e-06
+0.00045,0.00625,images/Madeleine holes/topograt/1grat.png,0.075,6.805807622504537e-06
+0.0006,0.00625,images/Madeleine holes/topograt/1grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.00625,images/Madeleine holes/topograt/1grat.png,0.125,1.1343012704174228e-05
+0.0009,0.00625,images/Madeleine holes/topograt/1grat.png,0.15,1.3611615245009074e-05
+0.00105,0.00625,images/Madeleine holes/topograt/1grat.png,0.2,1.8148820326678767e-05
+0.0012,0.00625,images/Madeleine holes/topograt/1grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.00625,images/Madeleine holes/topograt/1grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.00625,images/Madeleine holes/topograt/1grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:32:28
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0065,images/Madeleine holes/topograt/2grat.png,0.005,4.5372050816696915e-07
+0.00015,0.0065,images/Madeleine holes/topograt/2grat.png,0.025,2.268602540834846e-06
+0.0003,0.0065,images/Madeleine holes/topograt/2grat.png,0.05,4.537205081669692e-06
+0.00045,0.0065,images/Madeleine holes/topograt/2grat.png,0.075,6.805807622504537e-06
+0.0006,0.0065,images/Madeleine holes/topograt/2grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.0065,images/Madeleine holes/topograt/2grat.png,0.125,1.1343012704174228e-05
+0.0009,0.0065,images/Madeleine holes/topograt/2grat.png,0.15,1.3611615245009074e-05
+0.00105,0.0065,images/Madeleine holes/topograt/2grat.png,0.2,1.8148820326678767e-05
+0.0012,0.0065,images/Madeleine holes/topograt/2grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.0065,images/Madeleine holes/topograt/2grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.0065,images/Madeleine holes/topograt/2grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:32:35
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00675,images/Madeleine holes/topograt/3grat.png,0.005,4.5372050816696915e-07
+0.00015,0.00675,images/Madeleine holes/topograt/3grat.png,0.025,2.268602540834846e-06
+0.0003,0.00675,images/Madeleine holes/topograt/3grat.png,0.05,4.537205081669692e-06
+0.00045,0.00675,images/Madeleine holes/topograt/3grat.png,0.075,6.805807622504537e-06
+0.0006,0.00675,images/Madeleine holes/topograt/3grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.00675,images/Madeleine holes/topograt/3grat.png,0.125,1.1343012704174228e-05
+0.0009,0.00675,images/Madeleine holes/topograt/3grat.png,0.15,1.3611615245009074e-05
+0.00105,0.00675,images/Madeleine holes/topograt/3grat.png,0.2,1.8148820326678767e-05
+0.0012,0.00675,images/Madeleine holes/topograt/3grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.00675,images/Madeleine holes/topograt/3grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.00675,images/Madeleine holes/topograt/3grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:32:50
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.007,images/Madeleine holes/topograt/4grat.png,0.005,4.5372050816696915e-07
+0.00015,0.007,images/Madeleine holes/topograt/4grat.png,0.025,2.268602540834846e-06
+0.0003,0.007,images/Madeleine holes/topograt/4grat.png,0.05,4.537205081669692e-06
+0.00045,0.007,images/Madeleine holes/topograt/4grat.png,0.075,6.805807622504537e-06
+0.0006,0.007,images/Madeleine holes/topograt/4grat.png,0.1,9.074410163339384e-06
+0.0007499999999999999,0.007,images/Madeleine holes/topograt/4grat.png,0.125,1.1343012704174228e-05
+0.0009,0.007,images/Madeleine holes/topograt/4grat.png,0.15,1.3611615245009074e-05
+0.00105,0.007,images/Madeleine holes/topograt/4grat.png,0.2,1.8148820326678767e-05
+0.0012,0.007,images/Madeleine holes/topograt/4grat.png,0.25,2.2686025408348456e-05
+0.0013499999999999999,0.007,images/Madeleine holes/topograt/4grat.png,0.3,2.7223230490018148e-05
+0.0014999999999999998,0.007,images/Madeleine holes/topograt/4grat.png,0.5,4.537205081669691e-05
+2023-07-11 11:35:16
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00725,images/Madeleine holes/topograt/-4grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.00725,images/Madeleine holes/topograt/-4grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.00725,images/Madeleine holes/topograt/-4grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.00725,images/Madeleine holes/topograt/-4grat.png,0.0825,7.486388384754991e-06
+0.0006,0.00725,images/Madeleine holes/topograt/-4grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.00725,images/Madeleine holes/topograt/-4grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.00725,images/Madeleine holes/topograt/-4grat.png,0.165,1.4972776769509982e-05
+0.00105,0.00725,images/Madeleine holes/topograt/-4grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.00725,images/Madeleine holes/topograt/-4grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.00725,images/Madeleine holes/topograt/-4grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.00725,images/Madeleine holes/topograt/-4grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:35:24
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0075,images/Madeleine holes/topograt/-3grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.0075,images/Madeleine holes/topograt/-3grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.0075,images/Madeleine holes/topograt/-3grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.0075,images/Madeleine holes/topograt/-3grat.png,0.0825,7.486388384754991e-06
+0.0006,0.0075,images/Madeleine holes/topograt/-3grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.0075,images/Madeleine holes/topograt/-3grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.0075,images/Madeleine holes/topograt/-3grat.png,0.165,1.4972776769509982e-05
+0.00105,0.0075,images/Madeleine holes/topograt/-3grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.0075,images/Madeleine holes/topograt/-3grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.0075,images/Madeleine holes/topograt/-3grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.0075,images/Madeleine holes/topograt/-3grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:35:32
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00775,images/Madeleine holes/topograt/-2grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.00775,images/Madeleine holes/topograt/-2grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.00775,images/Madeleine holes/topograt/-2grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.00775,images/Madeleine holes/topograt/-2grat.png,0.0825,7.486388384754991e-06
+0.0006,0.00775,images/Madeleine holes/topograt/-2grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.00775,images/Madeleine holes/topograt/-2grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.00775,images/Madeleine holes/topograt/-2grat.png,0.165,1.4972776769509982e-05
+0.00105,0.00775,images/Madeleine holes/topograt/-2grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.00775,images/Madeleine holes/topograt/-2grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.00775,images/Madeleine holes/topograt/-2grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.00775,images/Madeleine holes/topograt/-2grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:35:40
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.008,images/Madeleine holes/topograt/-1grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.008,images/Madeleine holes/topograt/-1grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.008,images/Madeleine holes/topograt/-1grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.008,images/Madeleine holes/topograt/-1grat.png,0.0825,7.486388384754991e-06
+0.0006,0.008,images/Madeleine holes/topograt/-1grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.008,images/Madeleine holes/topograt/-1grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.008,images/Madeleine holes/topograt/-1grat.png,0.165,1.4972776769509982e-05
+0.00105,0.008,images/Madeleine holes/topograt/-1grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.008,images/Madeleine holes/topograt/-1grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.008,images/Madeleine holes/topograt/-1grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.008,images/Madeleine holes/topograt/-1grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:35:50
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00825,images/Madeleine holes/topograt/0grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.00825,images/Madeleine holes/topograt/0grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.00825,images/Madeleine holes/topograt/0grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.00825,images/Madeleine holes/topograt/0grat.png,0.0825,7.486388384754991e-06
+0.0006,0.00825,images/Madeleine holes/topograt/0grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.00825,images/Madeleine holes/topograt/0grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.00825,images/Madeleine holes/topograt/0grat.png,0.165,1.4972776769509982e-05
+0.00105,0.00825,images/Madeleine holes/topograt/0grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.00825,images/Madeleine holes/topograt/0grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.00825,images/Madeleine holes/topograt/0grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.00825,images/Madeleine holes/topograt/0grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:35:57
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0085,images/Madeleine holes/topograt/1grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.0085,images/Madeleine holes/topograt/1grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.0085,images/Madeleine holes/topograt/1grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.0085,images/Madeleine holes/topograt/1grat.png,0.0825,7.486388384754991e-06
+0.0006,0.0085,images/Madeleine holes/topograt/1grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.0085,images/Madeleine holes/topograt/1grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.0085,images/Madeleine holes/topograt/1grat.png,0.165,1.4972776769509982e-05
+0.00105,0.0085,images/Madeleine holes/topograt/1grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.0085,images/Madeleine holes/topograt/1grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.0085,images/Madeleine holes/topograt/1grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.0085,images/Madeleine holes/topograt/1grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:36:05
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00875,images/Madeleine holes/topograt/2grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.00875,images/Madeleine holes/topograt/2grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.00875,images/Madeleine holes/topograt/2grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.00875,images/Madeleine holes/topograt/2grat.png,0.0825,7.486388384754991e-06
+0.0006,0.00875,images/Madeleine holes/topograt/2grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.00875,images/Madeleine holes/topograt/2grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.00875,images/Madeleine holes/topograt/2grat.png,0.165,1.4972776769509982e-05
+0.00105,0.00875,images/Madeleine holes/topograt/2grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.00875,images/Madeleine holes/topograt/2grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.00875,images/Madeleine holes/topograt/2grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.00875,images/Madeleine holes/topograt/2grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:36:16
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.009,images/Madeleine holes/topograt/3grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.009,images/Madeleine holes/topograt/3grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.009,images/Madeleine holes/topograt/3grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.009,images/Madeleine holes/topograt/3grat.png,0.0825,7.486388384754991e-06
+0.0006,0.009,images/Madeleine holes/topograt/3grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.009,images/Madeleine holes/topograt/3grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.009,images/Madeleine holes/topograt/3grat.png,0.165,1.4972776769509982e-05
+0.00105,0.009,images/Madeleine holes/topograt/3grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.009,images/Madeleine holes/topograt/3grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.009,images/Madeleine holes/topograt/3grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.009,images/Madeleine holes/topograt/3grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:36:24
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00925,images/Madeleine holes/topograt/4grat.png,0.0055000000000000005,4.990925589836662e-07
+0.00015,0.00925,images/Madeleine holes/topograt/4grat.png,0.027500000000000004,2.4954627949183307e-06
+0.0003,0.00925,images/Madeleine holes/topograt/4grat.png,0.05500000000000001,4.990925589836661e-06
+0.00045,0.00925,images/Madeleine holes/topograt/4grat.png,0.0825,7.486388384754991e-06
+0.0006,0.00925,images/Madeleine holes/topograt/4grat.png,0.11000000000000001,9.981851179673323e-06
+0.0007499999999999999,0.00925,images/Madeleine holes/topograt/4grat.png,0.1375,1.2477313974591653e-05
+0.0009,0.00925,images/Madeleine holes/topograt/4grat.png,0.165,1.4972776769509982e-05
+0.00105,0.00925,images/Madeleine holes/topograt/4grat.png,0.22000000000000003,1.9963702359346645e-05
+0.0012,0.00925,images/Madeleine holes/topograt/4grat.png,0.275,2.4954627949183305e-05
+0.0013499999999999999,0.00925,images/Madeleine holes/topograt/4grat.png,0.33,2.9945553539019965e-05
+0.0014999999999999998,0.00925,images/Madeleine holes/topograt/4grat.png,0.55,4.990925589836661e-05
+2023-07-11 11:48:49
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+-0.00015,0.000625,images/Madeleine holes/Airy SPP.png,0.005,4.5372050816696915e-07
+-0.0003,0.000625,images/Madeleine holes/Airy SPP.png,0.025,2.268602540834846e-06
+-0.00045,0.000625,images/Madeleine holes/Airy SPP.png,0.05,4.537205081669692e-06
+-0.0006,0.000625,images/Madeleine holes/Airy SPP.png,0.075,6.805807622504537e-06
+-0.0007499999999999999,0.000625,images/Madeleine holes/Airy SPP.png,0.1,9.074410163339384e-06
+-0.0008999999999999999,0.000625,images/Madeleine holes/Airy SPP.png,0.125,1.1343012704174228e-05
+-0.00105,0.000625,images/Madeleine holes/Airy SPP.png,0.15,1.3611615245009074e-05
+-0.0012,0.000625,images/Madeleine holes/Airy SPP.png,0.2,1.8148820326678767e-05
+-0.0013499999999999999,0.000625,images/Madeleine holes/Airy SPP.png,0.25,2.2686025408348456e-05
+-0.0014999999999999998,0.000625,images/Madeleine holes/Airy SPP.png,0.3,2.7223230490018148e-05
+-0.0016499999999999998,0.000625,images/Madeleine holes/Airy SPP.png,0.5,4.537205081669691e-05
+2023-07-11 11:49:07
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+-0.00015,0.000675,images/Madeleine holes/Airy SPP.png,0.01,9.074410163339383e-07
+-0.0003,0.000675,images/Madeleine holes/Airy SPP.png,0.05,4.537205081669692e-06
+-0.00045,0.000675,images/Madeleine holes/Airy SPP.png,0.1,9.074410163339384e-06
+-0.0006,0.000675,images/Madeleine holes/Airy SPP.png,0.15,1.3611615245009074e-05
+-0.0007499999999999999,0.000675,images/Madeleine holes/Airy SPP.png,0.2,1.8148820326678767e-05
+-0.0008999999999999999,0.000675,images/Madeleine holes/Airy SPP.png,0.25,2.2686025408348456e-05
+-0.00105,0.000675,images/Madeleine holes/Airy SPP.png,0.3,2.7223230490018148e-05
+-0.0012,0.000675,images/Madeleine holes/Airy SPP.png,0.4,3.6297640653357535e-05
+-0.0013499999999999999,0.000675,images/Madeleine holes/Airy SPP.png,0.5,4.537205081669691e-05
+-0.0014999999999999998,0.000675,images/Madeleine holes/Airy SPP.png,0.6,5.4446460980036295e-05
+-0.0016499999999999998,0.000675,images/Madeleine holes/Airy SPP.png,1.0,9.074410163339382e-05
+2023-07-11 11:52:01
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+-0.00015,0.0008,images/Madeleine holes/Airy SPP.png,0.005,4.5372050816696915e-07
+-0.0003,0.0008,images/Madeleine holes/Airy SPP.png,0.025,2.268602540834846e-06
+-0.00045,0.0008,images/Madeleine holes/Airy SPP.png,0.05,4.537205081669692e-06
+-0.0006,0.0008,images/Madeleine holes/Airy SPP.png,0.075,6.805807622504537e-06
+-0.0007499999999999999,0.0008,images/Madeleine holes/Airy SPP.png,0.1,9.074410163339384e-06
+-0.0008999999999999999,0.0008,images/Madeleine holes/Airy SPP.png,0.125,1.1343012704174228e-05
+-0.00105,0.0008,images/Madeleine holes/Airy SPP.png,0.15,1.3611615245009074e-05
+-0.0012,0.0008,images/Madeleine holes/Airy SPP.png,0.2,1.8148820326678767e-05
+-0.0013499999999999999,0.0008,images/Madeleine holes/Airy SPP.png,0.25,2.2686025408348456e-05
+-0.0014999999999999998,0.0008,images/Madeleine holes/Airy SPP.png,0.3,2.7223230490018148e-05
+-0.0016499999999999998,0.0008,images/Madeleine holes/Airy SPP.png,0.5,4.537205081669691e-05
+2023-07-11 11:52:09
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+-0.00015,0.0009,images/Madeleine holes/Airy SPP.png,0.01,9.074410163339383e-07
+-0.0003,0.0009,images/Madeleine holes/Airy SPP.png,0.05,4.537205081669692e-06
+-0.00045,0.0009,images/Madeleine holes/Airy SPP.png,0.1,9.074410163339384e-06
+-0.0006,0.0009,images/Madeleine holes/Airy SPP.png,0.15,1.3611615245009074e-05
+-0.0007499999999999999,0.0009,images/Madeleine holes/Airy SPP.png,0.2,1.8148820326678767e-05
+-0.0008999999999999999,0.0009,images/Madeleine holes/Airy SPP.png,0.25,2.2686025408348456e-05
+-0.00105,0.0009,images/Madeleine holes/Airy SPP.png,0.3,2.7223230490018148e-05
+-0.0012,0.0009,images/Madeleine holes/Airy SPP.png,0.4,3.6297640653357535e-05
+-0.0013499999999999999,0.0009,images/Madeleine holes/Airy SPP.png,0.5,4.537205081669691e-05
+-0.0014999999999999998,0.0009,images/Madeleine holes/Airy SPP.png,0.6,5.4446460980036295e-05
+-0.0016499999999999998,0.0009,images/Madeleine holes/Airy SPP.png,1.0,9.074410163339382e-05
+2023-07-11 11:56:16
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+-0.00015,0.0011,images/Madeleine holes/Airy SPP.png,0.005,4.5372050816696915e-07
+-0.0003,0.0011,images/Madeleine holes/Airy SPP.png,0.025,2.268602540834846e-06
+-0.00045,0.0011,images/Madeleine holes/Airy SPP.png,0.05,4.537205081669692e-06
+-0.0006,0.0011,images/Madeleine holes/Airy SPP.png,0.075,6.805807622504537e-06
+-0.0007499999999999999,0.0011,images/Madeleine holes/Airy SPP.png,0.1,9.074410163339384e-06
+-0.0008999999999999999,0.0011,images/Madeleine holes/Airy SPP.png,0.125,1.1343012704174228e-05
+-0.00105,0.0011,images/Madeleine holes/Airy SPP.png,0.15,1.3611615245009074e-05
+-0.0012,0.0011,images/Madeleine holes/Airy SPP.png,0.2,1.8148820326678767e-05
+-0.0013499999999999999,0.0011,images/Madeleine holes/Airy SPP.png,0.25,2.2686025408348456e-05
+-0.0014999999999999998,0.0011,images/Madeleine holes/Airy SPP.png,0.3,2.7223230490018148e-05
+-0.0016499999999999998,0.0011,images/Madeleine holes/Airy SPP.png,0.5,4.537205081669691e-05
+2023-07-11 11:56:50
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+-0.00015,0.0012,images/Madeleine holes/Airy SPP.png,0.01,9.074410163339383e-07
+-0.0003,0.0012,images/Madeleine holes/Airy SPP.png,0.05,4.537205081669692e-06
+-0.00045,0.0012,images/Madeleine holes/Airy SPP.png,0.1,9.074410163339384e-06
+-0.0006,0.0012,images/Madeleine holes/Airy SPP.png,0.15,1.3611615245009074e-05
+-0.0007499999999999999,0.0012,images/Madeleine holes/Airy SPP.png,0.2,1.8148820326678767e-05
+-0.0008999999999999999,0.0012,images/Madeleine holes/Airy SPP.png,0.25,2.2686025408348456e-05
+-0.00105,0.0012,images/Madeleine holes/Airy SPP.png,0.3,2.7223230490018148e-05
+-0.0012,0.0012,images/Madeleine holes/Airy SPP.png,0.4,3.6297640653357535e-05
+-0.0013499999999999999,0.0012,images/Madeleine holes/Airy SPP.png,0.5,4.537205081669691e-05
+-0.0014999999999999998,0.0012,images/Madeleine holes/Airy SPP.png,0.6,5.4446460980036295e-05
+-0.0016499999999999998,0.0012,images/Madeleine holes/Airy SPP.png,1.0,9.074410163339382e-05
+2023-07-11 11:57:28
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+-0.00015,0.0013,images/Madeleine holes/Airy SPP.png,0.05,4.537205081669692e-06
+-0.0003,0.0013,images/Madeleine holes/Airy SPP.png,0.25,2.2686025408348456e-05
+-0.00045,0.0013,images/Madeleine holes/Airy SPP.png,0.5,4.537205081669691e-05
+-0.0006,0.0013,images/Madeleine holes/Airy SPP.png,0.75,6.805807622504538e-05
+-0.0007499999999999999,0.0013,images/Madeleine holes/Airy SPP.png,1.0,9.074410163339382e-05
+-0.0008999999999999999,0.0013,images/Madeleine holes/Airy SPP.png,1.25,0.00011343012704174228
+-0.00105,0.0013,images/Madeleine holes/Airy SPP.png,1.5,0.00013611615245009076
+-0.0012,0.0013,images/Madeleine holes/Airy SPP.png,2.0,0.00018148820326678765
+-0.0013499999999999999,0.0013,images/Madeleine holes/Airy SPP.png,2.5,0.00022686025408348456
+-0.0014999999999999998,0.0013,images/Madeleine holes/Airy SPP.png,3.0,0.0002722323049001815
+-0.0016499999999999998,0.0013,images/Madeleine holes/Airy SPP.png,5.0,0.00045372050816696913

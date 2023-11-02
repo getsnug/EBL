@@ -1,0 +1,48 @@
+2023-05-30 10:28:27
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0005,images/test_res_1.png,1.4524,0.00013167724388032638
+2023-05-30 10:29:40
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.0005,images/test_res_1.png,2.9048,0.00026335448776065276
+2023-05-30 10:30:32
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.0005,images/test_res_1.png,4.3572,0.00039503173164097914
+2023-05-30 10:31:17
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.0005,images/test_res_1.png,5.8096,0.0005267089755213055
+2023-05-30 10:32:25
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/test_res_2.png,1.3114,0.00011889392565729826
+2023-05-30 10:34:01
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00075,images/test_res_2.png,2.6228,0.00023778785131459653
+2023-05-30 10:35:05
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00075,images/test_res_2.png,3.9342,0.00035668177697189483
+2023-05-30 10:36:16
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00075,images/test_res_2.png,5.2456,0.00047557570262919305
+2023-05-30 10:37:03
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/test_res_3.png,1.2688,0.00011503173164097914
+2023-05-30 10:37:44
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.001,images/test_res_3.png,2.5377,0.0002300725294650952
+2023-05-30 10:38:25
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.001,images/test_res_3.png,3.8066,0.0003451133272892112
+2023-05-30 10:38:56
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.001,images/test_res_3.png,5.0755,0.0004601541251133273
+2023-05-30 10:39:46
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/test_res_4.png,1.3474,0.00012215775158658205
+2023-05-30 10:40:16
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00015,0.00125,images/test_res_4.png,2.6948,0.0002443155031731641
+2023-05-30 10:40:38
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0003,0.00125,images/test_res_4.png,4.0422,0.00036647325475974615
+2023-05-30 10:41:07
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.00045,0.00125,images/test_res_4.png,5.3897,0.0004886400725294651

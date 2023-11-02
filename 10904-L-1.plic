@@ -1,0 +1,32 @@
+{
+    "ExpirationDates": {
+        "PPI": "License never expires",
+        "PhenomUI": {
+            "ElementIdentification": "License never expires",
+            "ElementIdentificationMap": "License never expires",
+            "RoughnessReconstruction": "License never expires"
+        }
+    },
+    "PPI": {
+        "Password": "4JCMC472P911",
+        "Username": "MVE08554410904L"
+    },
+    "PhenomUI": {
+        "ElementIdentification": "01ESPSN8Y7HU",
+        "ElementIdentificationMap": "QWH6XKE00FKP",
+        "RoughnessReconstruction": "N00TE4D0UU7T"
+    },
+    "ProSuite": {
+        "Framework": "4XQU-E6LC-RUU8-TEFM-XM7K-M9EK-M72F-6GVM-8C62-QN5"
+    },
+    "SystemInformation": {
+        "Phenom": {
+            "InstrumentID": "MVE085544-10904-L"
+        },
+        "PoNumber": "PO179113",
+        "Workstation": {
+            "MacAddress": "D8BBC1C3E8D9",
+            "SerialNr": "PC2A1L9Y"
+        }
+    }
+}

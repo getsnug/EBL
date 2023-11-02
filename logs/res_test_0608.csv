@@ -1,0 +1,98 @@
+2023-06-08 10:59:33
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 10:59:54
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:01:24
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:02:14
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:03:54
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:05:18
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:07:00
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:07:07
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:10:32
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:19:22
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+2023-06-08 11:20:33
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0005,images/Wave_guides_1.png,7.224,0.0006555353901996371
+0.00015,0.0005,images/Wave_guides_1.png,10.836,0.0009833030852994555
+0.0003,0.0005,images/Wave_guides_1.png,14.448,0.0013110707803992742
+2023-06-08 11:26:14
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/Wave_guides_1.png,14.448,0.0013110707803992742
+0.00015,0.00075,images/Wave_guides_1.png,15.1704,0.001376624319419238
+0.0003,0.00075,images/Wave_guides_1.png,15.892800000000001,0.0014421778584392014
+0.00045,0.00075,images/Wave_guides_1.png,16.6152,0.0015077313974591652
+0.0006,0.00075,images/Wave_guides_1.png,17.337600000000002,0.001573284936479129
+0.0007499999999999999,0.00075,images/Wave_guides_1.png,18.060000000000002,0.0016388384754990927
+2023-06-08 11:30:30
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/test_res_topo_2.png,7.224,0.0006555353901996371
+0.00015,0.001,images/test_res_topo_2.png,10.836,0.0009833030852994555
+0.0003,0.001,images/test_res_topo_2.png,14.448,0.0013110707803992742
+2023-06-08 11:32:00
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/test_res_topo_2.png,14.448,0.0013110707803992742
+0.00015,0.00125,images/test_res_topo_2.png,15.1704,0.001376624319419238
+0.0003,0.00125,images/test_res_topo_2.png,15.892800000000001,0.0014421778584392014
+0.00045,0.00125,images/test_res_topo_2.png,16.6152,0.0015077313974591652
+0.0006,0.00125,images/test_res_topo_2.png,17.337600000000002,0.001573284936479129
+0.0007499999999999999,0.00125,images/test_res_topo_2.png,18.060000000000002,0.0016388384754990927
+2023-06-08 11:35:28
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0015,images/test_res_topo_hex_1.png,10.649999999999999,0.0009664246823956441
+0.00015,0.0015,images/test_res_topo_hex_1.png,15.975,0.0014496370235934663
+0.0003,0.0015,images/test_res_topo_hex_1.png,21.299999999999997,0.0019328493647912883
+2023-06-08 11:37:05
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00175,images/test_res_topo_hex_1.png,21.299999999999997,0.0019328493647912883
+0.00015,0.00175,images/test_res_topo_hex_1.png,22.365,0.0020294918330308527
+0.0003,0.00175,images/test_res_topo_hex_1.png,23.43,0.0021261343012704175
+0.00045,0.00175,images/test_res_topo_hex_1.png,24.494999999999997,0.0022227767695099814
+0.0006,0.00175,images/test_res_topo_hex_1.png,25.56,0.0023194192377495463
+0.0007499999999999999,0.00175,images/test_res_topo_hex_1.png,26.625,0.0024160617059891107
+2023-06-08 11:46:36
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0005,images/Wave_guides_1.png,7.224,0.0006555353901996371
+0.00015,0.0005,images/Wave_guides_1.png,10.836,0.0009833030852994555
+0.0003,0.0005,images/Wave_guides_1.png,14.448,0.0013110707803992742
+2023-06-08 11:49:02
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00075,images/Wave_guides_1.png,14.448,0.0013110707803992742
+0.00015,0.00075,images/Wave_guides_1.png,15.1704,0.001376624319419238
+0.0003,0.00075,images/Wave_guides_1.png,15.892800000000001,0.0014421778584392014
+0.00045,0.00075,images/Wave_guides_1.png,16.6152,0.0015077313974591652
+0.0006,0.00075,images/Wave_guides_1.png,17.337600000000002,0.001573284936479129
+0.0007499999999999999,0.00075,images/Wave_guides_1.png,18.060000000000002,0.0016388384754990927
+2023-06-08 11:52:25
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.001,images/test_res_topo_2.png,7.224,0.0006555353901996371
+0.00015,0.001,images/test_res_topo_2.png,10.836,0.0009833030852994555
+0.0003,0.001,images/test_res_topo_2.png,14.448,0.0013110707803992742
+2023-06-08 11:54:02
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00125,images/test_res_topo_2.png,14.448,0.0013110707803992742
+0.00015,0.00125,images/test_res_topo_2.png,15.1704,0.001376624319419238
+0.0003,0.00125,images/test_res_topo_2.png,15.892800000000001,0.0014421778584392014
+0.00045,0.00125,images/test_res_topo_2.png,16.6152,0.0015077313974591652
+0.0006,0.00125,images/test_res_topo_2.png,17.337600000000002,0.001573284936479129
+0.0007499999999999999,0.00125,images/test_res_topo_2.png,18.060000000000002,0.0016388384754990927
+2023-06-08 11:56:53
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.0015,images/test_res_topo_hex_1.png,10.649999999999999,0.0009664246823956441
+0.00015,0.0015,images/test_res_topo_hex_1.png,15.975,0.0014496370235934663
+0.0003,0.0015,images/test_res_topo_hex_1.png,21.299999999999997,0.0019328493647912883
+2023-06-08 11:58:33
+x,y,image_filename,exposure_time,black_pixel_dwell_time
+0.0,0.00175,images/test_res_topo_hex_1.png,21.299999999999997,0.0019328493647912883
+0.00015,0.00175,images/test_res_topo_hex_1.png,22.365,0.0020294918330308527
+0.0003,0.00175,images/test_res_topo_hex_1.png,23.43,0.0021261343012704175
+0.00045,0.00175,images/test_res_topo_hex_1.png,24.494999999999997,0.0022227767695099814
+0.0006,0.00175,images/test_res_topo_hex_1.png,25.56,0.0023194192377495463
+0.0007499999999999999,0.00175,images/test_res_topo_hex_1.png,26.625,0.0024160617059891107

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module PyPhenom.Application.ElementIdentification</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title"><a href="PyPhenom.html" class="white">PyPhenom</a>.<a href="PyPhenom.Application.html" class="white">Application</a>.ElementIdentification</strong></td>
+<td class="extra"><a href=".">index</a><br>(built-in)</td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text">Boost.Python.enum(<a href="builtins.html#int">builtins.int</a>)
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsCoolingOption">EdsCoolingOption</a>
+</dt></dl>
+</dd>
+<dt class="heading-text">Boost.Python.instance(<a href="builtins.html#object">builtins.object</a>)
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsJobAnalyzer">EdsJobAnalyzer</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsLineData">EdsLineData</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsLineJob">EdsLineJob</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsMapData">EdsMapData</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsMapJob">EdsMapJob</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsRegionData">EdsRegionData</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsSpotData">EdsSpotData</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsSpotJob">EdsSpotJob</a>
+</dt><dt class="heading-text"><a href="PyPhenom.Application.ElementIdentification.html#EdsSyncMapJob">EdsSyncMapJob</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsCoolingOption">class <strong>EdsCoolingOption</strong></a>(Boost.Python.enum)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsCoolingOption">EdsCoolingOption</a></dd>
+<dd>Boost.Python.enum</dd>
+<dd><a href="builtins.html#int">builtins.int</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>AwaitCooling</strong> = PyPhenom.Application.ElementIdentification.EdsCoolingOption.AwaitCooling</dl>
+
+<dl><dt><strong>SkipCooling</strong> = PyPhenom.Application.ElementIdentification.EdsCoolingOption.SkipCooling</dl>
+
+<dl><dt><strong>names</strong> = {'AwaitCooling': PyPhenom.Application.ElementIdentification.EdsCoolingOption.AwaitCooling, 'SkipCooling': PyPhenom.Application.ElementIdentification.EdsCoolingOption.SkipCooling}</dl>
+
+<dl><dt><strong>values</strong> = {0: PyPhenom.Application.ElementIdentification.EdsCoolingOption.AwaitCooling, 1: PyPhenom.Application.ElementIdentification.EdsCoolingOption.SkipCooling}</dl>
+
+<hr>
+Methods inherited from Boost.Python.enum:<br>
+<dl><dt><a name="EdsCoolingOption-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><span class="code">Return&nbsp;repr(self).</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><span class="code">Return&nbsp;str(self).</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.enum:<br>
+<dl><dt><strong>name</strong></dt>
+</dl>
+<hr>
+Methods inherited from <a href="builtins.html#int">builtins.int</a>:<br>
+<dl><dt><a name="EdsCoolingOption-__abs__"><strong>__abs__</strong></a>(self, /)</dt><dd><span class="code">abs(self)</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__add__"><strong>__add__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self+value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__and__"><strong>__and__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self&amp;value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__bool__"><strong>__bool__</strong></a>(self, /)</dt><dd><span class="code">True&nbsp;if&nbsp;self&nbsp;else&nbsp;False</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__ceil__"><strong>__ceil__</strong></a>(...)</dt><dd><span class="code">Ceiling&nbsp;of&nbsp;an&nbsp;Integral&nbsp;returns&nbsp;itself.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__divmod__"><strong>__divmod__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;divmod(self,&nbsp;value).</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__eq__"><strong>__eq__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self==value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__float__"><strong>__float__</strong></a>(self, /)</dt><dd><span class="code">float(self)</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__floor__"><strong>__floor__</strong></a>(...)</dt><dd><span class="code">Flooring&nbsp;an&nbsp;Integral&nbsp;returns&nbsp;itself.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__floordiv__"><strong>__floordiv__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self//value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__format__"><strong>__format__</strong></a>(self, format_spec, /)</dt><dd><span class="code">Default&nbsp;object&nbsp;formatter.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__ge__"><strong>__ge__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self&gt;=value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><span class="code">Return&nbsp;getattr(self,&nbsp;name).</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__getnewargs__"><strong>__getnewargs__</strong></a>(self, /)</dt></dl>
+
+<dl><dt><a name="EdsCoolingOption-__gt__"><strong>__gt__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self&gt;value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__hash__"><strong>__hash__</strong></a>(self, /)</dt><dd><span class="code">Return&nbsp;hash(self).</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__index__"><strong>__index__</strong></a>(self, /)</dt><dd><span class="code">Return&nbsp;self&nbsp;converted&nbsp;to&nbsp;an&nbsp;integer,&nbsp;if&nbsp;self&nbsp;is&nbsp;suitable&nbsp;for&nbsp;use&nbsp;as&nbsp;an&nbsp;index&nbsp;into&nbsp;a&nbsp;list.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__int__"><strong>__int__</strong></a>(self, /)</dt><dd><span class="code">int(self)</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__invert__"><strong>__invert__</strong></a>(self, /)</dt><dd><span class="code">~self</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__le__"><strong>__le__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self&lt;=value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__lshift__"><strong>__lshift__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self&lt;&lt;value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__lt__"><strong>__lt__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self&lt;value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__mod__"><strong>__mod__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self%value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__mul__"><strong>__mul__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self*value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__ne__"><strong>__ne__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self!=value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__neg__"><strong>__neg__</strong></a>(self, /)</dt><dd><span class="code">-self</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__or__"><strong>__or__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self|value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__pos__"><strong>__pos__</strong></a>(self, /)</dt><dd><span class="code">+self</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__pow__"><strong>__pow__</strong></a>(self, value, mod=None, /)</dt><dd><span class="code">Return&nbsp;pow(self,&nbsp;value,&nbsp;mod).</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__radd__"><strong>__radd__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value+self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rand__"><strong>__rand__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value&amp;self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rdivmod__"><strong>__rdivmod__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;divmod(value,&nbsp;self).</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rfloordiv__"><strong>__rfloordiv__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value//self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rlshift__"><strong>__rlshift__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value&lt;&lt;self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rmod__"><strong>__rmod__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value%self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rmul__"><strong>__rmul__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value*self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__ror__"><strong>__ror__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value|self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__round__"><strong>__round__</strong></a>(...)</dt><dd><span class="code">Rounding&nbsp;an&nbsp;Integral&nbsp;returns&nbsp;itself.<br>
+&nbsp;<br>
+Rounding&nbsp;with&nbsp;an&nbsp;ndigits&nbsp;argument&nbsp;also&nbsp;returns&nbsp;an&nbsp;integer.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rpow__"><strong>__rpow__</strong></a>(self, value, mod=None, /)</dt><dd><span class="code">Return&nbsp;pow(value,&nbsp;self,&nbsp;mod).</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rrshift__"><strong>__rrshift__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value&gt;&gt;self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rshift__"><strong>__rshift__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self&gt;&gt;value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rsub__"><strong>__rsub__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value-self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rtruediv__"><strong>__rtruediv__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value/self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__rxor__"><strong>__rxor__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;value^self.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__sizeof__"><strong>__sizeof__</strong></a>(self, /)</dt><dd><span class="code">Returns&nbsp;size&nbsp;in&nbsp;memory,&nbsp;in&nbsp;bytes.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__sub__"><strong>__sub__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self-value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__truediv__"><strong>__truediv__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self/value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__trunc__"><strong>__trunc__</strong></a>(...)</dt><dd><span class="code">Truncating&nbsp;an&nbsp;Integral&nbsp;returns&nbsp;itself.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-__xor__"><strong>__xor__</strong></a>(self, value, /)</dt><dd><span class="code">Return&nbsp;self^value.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-as_integer_ratio"><strong>as_integer_ratio</strong></a>(self, /)</dt><dd><span class="code">Return&nbsp;integer&nbsp;ratio.<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;pair&nbsp;of&nbsp;integers,&nbsp;whose&nbsp;ratio&nbsp;is&nbsp;exactly&nbsp;equal&nbsp;to&nbsp;the&nbsp;original&nbsp;int<br>
+and&nbsp;with&nbsp;a&nbsp;positive&nbsp;denominator.<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;(10).<a href="#EdsCoolingOption-as_integer_ratio">as_integer_ratio</a>()<br>
+(10,&nbsp;1)<br>
+&gt;&gt;&gt;&nbsp;(-10).<a href="#EdsCoolingOption-as_integer_ratio">as_integer_ratio</a>()<br>
+(-10,&nbsp;1)<br>
+&gt;&gt;&gt;&nbsp;(0).<a href="#EdsCoolingOption-as_integer_ratio">as_integer_ratio</a>()<br>
+(0,&nbsp;1)</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-bit_count"><strong>bit_count</strong></a>(self, /)</dt><dd><span class="code">Number&nbsp;of&nbsp;ones&nbsp;in&nbsp;the&nbsp;binary&nbsp;representation&nbsp;of&nbsp;the&nbsp;absolute&nbsp;value&nbsp;of&nbsp;self.<br>
+&nbsp;<br>
+Also&nbsp;known&nbsp;as&nbsp;the&nbsp;population&nbsp;count.<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;bin(13)<br>
+'0b1101'<br>
+&gt;&gt;&gt;&nbsp;(13).<a href="#EdsCoolingOption-bit_count">bit_count</a>()<br>
+3</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-bit_length"><strong>bit_length</strong></a>(self, /)</dt><dd><span class="code">Number&nbsp;of&nbsp;bits&nbsp;necessary&nbsp;to&nbsp;represent&nbsp;self&nbsp;in&nbsp;binary.<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;bin(37)<br>
+'0b100101'<br>
+&gt;&gt;&gt;&nbsp;(37).<a href="#EdsCoolingOption-bit_length">bit_length</a>()<br>
+6</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-conjugate"><strong>conjugate</strong></a>(...)</dt><dd><span class="code">Returns&nbsp;self,&nbsp;the&nbsp;complex&nbsp;conjugate&nbsp;of&nbsp;any&nbsp;int.</span></dd></dl>
+
+<dl><dt><a name="EdsCoolingOption-to_bytes"><strong>to_bytes</strong></a>(self, /, length=1, byteorder='big', *, signed=False)</dt><dd><span class="code">Return&nbsp;an&nbsp;array&nbsp;of&nbsp;bytes&nbsp;representing&nbsp;an&nbsp;integer.<br>
+&nbsp;<br>
+length<br>
+&nbsp;&nbsp;Length&nbsp;of&nbsp;bytes&nbsp;object&nbsp;to&nbsp;use.&nbsp;&nbsp;An&nbsp;OverflowError&nbsp;is&nbsp;raised&nbsp;if&nbsp;the<br>
+&nbsp;&nbsp;integer&nbsp;is&nbsp;not&nbsp;representable&nbsp;with&nbsp;the&nbsp;given&nbsp;number&nbsp;of&nbsp;bytes.&nbsp;&nbsp;Default<br>
+&nbsp;&nbsp;is&nbsp;length&nbsp;1.<br>
+byteorder<br>
+&nbsp;&nbsp;The&nbsp;byte&nbsp;order&nbsp;used&nbsp;to&nbsp;represent&nbsp;the&nbsp;integer.&nbsp;&nbsp;If&nbsp;byteorder&nbsp;is&nbsp;'big',<br>
+&nbsp;&nbsp;the&nbsp;most&nbsp;significant&nbsp;byte&nbsp;is&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;byte&nbsp;array.&nbsp;&nbsp;If<br>
+&nbsp;&nbsp;byteorder&nbsp;is&nbsp;'little',&nbsp;the&nbsp;most&nbsp;significant&nbsp;byte&nbsp;is&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the<br>
+&nbsp;&nbsp;byte&nbsp;array.&nbsp;&nbsp;To&nbsp;request&nbsp;the&nbsp;native&nbsp;byte&nbsp;order&nbsp;of&nbsp;the&nbsp;host&nbsp;system,&nbsp;use<br>
+&nbsp;&nbsp;`sys.byteorder'&nbsp;as&nbsp;the&nbsp;byte&nbsp;order&nbsp;value.&nbsp;&nbsp;Default&nbsp;is&nbsp;to&nbsp;use&nbsp;'big'.<br>
+signed<br>
+&nbsp;&nbsp;Determines&nbsp;whether&nbsp;two's&nbsp;complement&nbsp;is&nbsp;used&nbsp;to&nbsp;represent&nbsp;the&nbsp;integer.<br>
+&nbsp;&nbsp;If&nbsp;signed&nbsp;is&nbsp;False&nbsp;and&nbsp;a&nbsp;negative&nbsp;integer&nbsp;is&nbsp;given,&nbsp;an&nbsp;OverflowError<br>
+&nbsp;&nbsp;is&nbsp;raised.</span></dd></dl>
+
+<hr>
+Class methods inherited from <a href="builtins.html#int">builtins.int</a>:<br>
+<dl><dt><a name="EdsCoolingOption-from_bytes"><strong>from_bytes</strong></a>(bytes, byteorder='big', *, signed=False)<span class="grey"><span class="heading-text"> from <a href="builtins.html#type">builtins.type</a></span></span></dt><dd><span class="code">Return&nbsp;the&nbsp;integer&nbsp;represented&nbsp;by&nbsp;the&nbsp;given&nbsp;array&nbsp;of&nbsp;bytes.<br>
+&nbsp;<br>
+bytes<br>
+&nbsp;&nbsp;Holds&nbsp;the&nbsp;array&nbsp;of&nbsp;bytes&nbsp;to&nbsp;convert.&nbsp;&nbsp;The&nbsp;argument&nbsp;must&nbsp;either<br>
+&nbsp;&nbsp;support&nbsp;the&nbsp;buffer&nbsp;protocol&nbsp;or&nbsp;be&nbsp;an&nbsp;iterable&nbsp;object&nbsp;producing&nbsp;bytes.<br>
+&nbsp;&nbsp;Bytes&nbsp;and&nbsp;bytearray&nbsp;are&nbsp;examples&nbsp;of&nbsp;built-in&nbsp;objects&nbsp;that&nbsp;support&nbsp;the<br>
+&nbsp;&nbsp;buffer&nbsp;protocol.<br>
+byteorder<br>
+&nbsp;&nbsp;The&nbsp;byte&nbsp;order&nbsp;used&nbsp;to&nbsp;represent&nbsp;the&nbsp;integer.&nbsp;&nbsp;If&nbsp;byteorder&nbsp;is&nbsp;'big',<br>
+&nbsp;&nbsp;the&nbsp;most&nbsp;significant&nbsp;byte&nbsp;is&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;byte&nbsp;array.&nbsp;&nbsp;If<br>
+&nbsp;&nbsp;byteorder&nbsp;is&nbsp;'little',&nbsp;the&nbsp;most&nbsp;significant&nbsp;byte&nbsp;is&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the<br>
+&nbsp;&nbsp;byte&nbsp;array.&nbsp;&nbsp;To&nbsp;request&nbsp;the&nbsp;native&nbsp;byte&nbsp;order&nbsp;of&nbsp;the&nbsp;host&nbsp;system,&nbsp;use<br>
+&nbsp;&nbsp;`sys.byteorder'&nbsp;as&nbsp;the&nbsp;byte&nbsp;order&nbsp;value.&nbsp;&nbsp;Default&nbsp;is&nbsp;to&nbsp;use&nbsp;'big'.<br>
+signed<br>
+&nbsp;&nbsp;Indicates&nbsp;whether&nbsp;two's&nbsp;complement&nbsp;is&nbsp;used&nbsp;to&nbsp;represent&nbsp;the&nbsp;integer.</span></dd></dl>
+
+<hr>
+Static methods inherited from <a href="builtins.html#int">builtins.int</a>:<br>
+<dl><dt><a name="EdsCoolingOption-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from <a href="builtins.html#type">builtins.type</a></span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#int">builtins.int</a>:<br>
+<dl><dt><strong>denominator</strong></dt>
+<dd><span class="code">the&nbsp;denominator&nbsp;of&nbsp;a&nbsp;rational&nbsp;number&nbsp;in&nbsp;lowest&nbsp;terms</span></dd>
+</dl>
+<dl><dt><strong>imag</strong></dt>
+<dd><span class="code">the&nbsp;imaginary&nbsp;part&nbsp;of&nbsp;a&nbsp;complex&nbsp;number</span></dd>
+</dl>
+<dl><dt><strong>numerator</strong></dt>
+<dd><span class="code">the&nbsp;numerator&nbsp;of&nbsp;a&nbsp;rational&nbsp;number&nbsp;in&nbsp;lowest&nbsp;terms</span></dd>
+</dl>
+<dl><dt><strong>real</strong></dt>
+<dd><span class="code">the&nbsp;real&nbsp;part&nbsp;of&nbsp;a&nbsp;complex&nbsp;number</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsJobAnalyzer">class <strong>EdsJobAnalyzer</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">EDS&nbsp;Job&nbsp;Analyzer.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsJobAnalyzer">EdsJobAnalyzer</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsJobAnalyzer-Abort"><strong>Abort</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-Abort">Abort</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-AbortCurrentJob"><strong>AbortCurrentJob</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-AbortCurrentJob">AbortCurrentJob</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-AbortJob"><strong>AbortJob</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-AbortJob">AbortJob</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(int)jobId)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-AcquireDriftCorrectionReference"><strong>AcquireDriftCorrectionReference</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-AcquireDriftCorrectionReference">AcquireDriftCorrectionReference</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1&nbsp;[,&nbsp;(int)size=512])&nbsp;-&gt;&nbsp;None&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Acquire&nbsp;the&nbsp;reference&nbsp;image&nbsp;to&nbsp;use&nbsp;with&nbsp;drift&nbsp;correction</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-ActiveJobId"><strong>ActiveJobId</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-ActiveJobId">ActiveJobId</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-Add"><strong>Add</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-Add">Add</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(<a href="#EdsSpotJob">EdsSpotJob</a>)job,&nbsp;(EdsAcquisition)acquisition)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+<a href="#EdsJobAnalyzer-Add">Add</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(<a href="#EdsLineJob">EdsLineJob</a>)job,&nbsp;(EdsLineSpectrum)lineSpectrum,&nbsp;(EdsAcquisition)acquisition)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+<a href="#EdsJobAnalyzer-Add">Add</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(<a href="#EdsMapJob">EdsMapJob</a>)job,&nbsp;(EdsGridSpectrum)gridSpectrum,&nbsp;(EdsAcquisition)acquisition)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+<a href="#EdsJobAnalyzer-Add">Add</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(<a href="#EdsSyncMapJob">EdsSyncMapJob</a>)job,&nbsp;(EdsGridSpectrum)gridSpectrum,&nbsp;(EdsAcquisition)acquisition)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-AddLine"><strong>AddLine</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-AddLine">AddLine</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(Line)line&nbsp;[,&nbsp;(int)numberOfPoints=100&nbsp;[,&nbsp;(float)timePerPoint=0.1&nbsp;[,&nbsp;(int)numberOfPasses=1]]])&nbsp;-&gt;&nbsp;<a href="#EdsLineData">EdsLineData</a></span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-AddMap"><strong>AddMap</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-AddMap">AddMap</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(RectangleD)region&nbsp;[,&nbsp;(int)mapSize=64&nbsp;[,&nbsp;(float)timePerPoint=0.01]])&nbsp;-&gt;&nbsp;<a href="#EdsMapData">EdsMapData</a></span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-AddRegion"><strong>AddRegion</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-AddRegion">AddRegion</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(RectangleD)region&nbsp;[,&nbsp;(float)maxTime=0&nbsp;[,&nbsp;(int)maxCounts=0]])&nbsp;-&gt;&nbsp;<a href="#EdsRegionData">EdsRegionData</a></span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-AddSpot"><strong>AddSpot</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-AddSpot">AddSpot</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(Position)position&nbsp;[,&nbsp;(float)maxTime=0&nbsp;[,&nbsp;(int)maxCounts=0]])&nbsp;-&gt;&nbsp;<a href="#EdsSpotData">EdsSpotData</a></span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-EdsCountPerSeconds"><strong>EdsCountPerSeconds</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-EdsCountPerSeconds">EdsCountPerSeconds</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-GetTemperature"><strong>GetTemperature</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-GetTemperature">GetTemperature</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-IsAnalyzing"><strong>IsAnalyzing</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-IsAnalyzing">IsAnalyzing</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-IsDetectorReady"><strong>IsDetectorReady</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-IsDetectorReady">IsDetectorReady</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-IsJobIdInUse"><strong>IsJobIdInUse</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-IsJobIdInUse">IsJobIdInUse</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(int)jobId)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-IsMaxTemperatureExceeded"><strong>IsMaxTemperatureExceeded</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-IsMaxTemperatureExceeded">IsMaxTemperatureExceeded</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-JobProgress"><strong>JobProgress</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-JobProgress">JobProgress</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-StopCurrentJob"><strong>StopCurrentJob</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-StopCurrentJob">StopCurrentJob</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-StopJob"><strong>StopJob</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-StopJob">StopJob</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1,&nbsp;(int)jobId)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-Wait"><strong>Wait</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-Wait">Wait</a>(&nbsp;(<a href="#EdsJobAnalyzer">EdsJobAnalyzer</a>)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#EdsJobAnalyzer-__init__">__init__</a>(&nbsp;(object)arg1,&nbsp;(Phenom)phenom&nbsp;[,&nbsp;(<a href="#EdsCoolingOption">EdsCoolingOption</a>)coolingOption=PyPhenom.Application.ElementIdentification.<a href="#EdsCoolingOption">EdsCoolingOption</a>.AwaitCooling])&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsJobAnalyzer-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Readonly properties defined here:<br>
+<dl><dt><strong>AnalysisFinished</strong></dt>
+<dd><span class="code">EDS&nbsp;analysis&nbsp;finished&nbsp;event</span></dd>
+</dl>
+<dl><dt><strong>EdsAnalyzerFailure</strong></dt>
+<dd><span class="code">EDS&nbsp;analyzer&nbsp;failure&nbsp;event&nbsp;(string)</span></dd>
+</dl>
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>coolingOption</strong></dt>
+</dl>
+<dl><dt><strong>maxTemperature</strong></dt>
+<dd><span class="code">Maximum&nbsp;allowed&nbsp;detector&nbsp;temperature&nbsp;[Kelvin]</span></dd>
+</dl>
+<dl><dt><strong>pulseProcessorPreset</strong></dt>
+</dl>
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsJobAnalyzer-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsLineData">class <strong>EdsLineData</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">EDS&nbsp;line&nbsp;acquisition&nbsp;data.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsLineData">EdsLineData</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsLineData-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code">Raises&nbsp;an&nbsp;exception<br>
+This&nbsp;class&nbsp;cannot&nbsp;be&nbsp;instantiated&nbsp;from&nbsp;Python</span></dd></dl>
+
+<dl><dt><a name="EdsLineData-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>line</strong></dt>
+</dl>
+<dl><dt><strong>lineSpectrum</strong></dt>
+</dl>
+<dl><dt><strong>sumSpectrum</strong></dt>
+</dl>
+<dl><dt><strong>uniqueId</strong></dt>
+</dl>
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsLineData-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsLineJob">class <strong>EdsLineJob</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsLineJob">EdsLineJob</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsLineJob-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#EdsLineJob-__init__">__init__</a>(&nbsp;(object)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsLineJob-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>acquisitionTimePerPoint</strong></dt>
+</dl>
+<dl><dt><strong>driftCorrectionInitialAcquisition</strong></dt>
+</dl>
+<dl><dt><strong>imageLine</strong></dt>
+</dl>
+<dl><dt><strong>imageSize</strong></dt>
+</dl>
+<dl><dt><strong>numberOfPasses</strong></dt>
+</dl>
+<dl><dt><strong>preset</strong></dt>
+</dl>
+<dl><dt><strong>uniqueId</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 168</dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsLineJob-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsMapData">class <strong>EdsMapData</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">EDS&nbsp;map&nbsp;acquisition&nbsp;data.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsMapData">EdsMapData</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsMapData-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code">Raises&nbsp;an&nbsp;exception<br>
+This&nbsp;class&nbsp;cannot&nbsp;be&nbsp;instantiated&nbsp;from&nbsp;Python</span></dd></dl>
+
+<dl><dt><a name="EdsMapData-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>gridSpectrum</strong></dt>
+</dl>
+<dl><dt><strong>region</strong></dt>
+</dl>
+<dl><dt><strong>sumSpectrum</strong></dt>
+</dl>
+<dl><dt><strong>uniqueId</strong></dt>
+</dl>
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsMapData-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsMapJob">class <strong>EdsMapJob</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsMapJob">EdsMapJob</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsMapJob-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#EdsMapJob-__init__">__init__</a>(&nbsp;(object)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsMapJob-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>acquisitionTimePerGridPosition</strong></dt>
+</dl>
+<dl><dt><strong>driftCorrectionInitialAcquisition</strong></dt>
+</dl>
+<dl><dt><strong>imageRect</strong></dt>
+</dl>
+<dl><dt><strong>imageSize</strong></dt>
+</dl>
+<dl><dt><strong>numberOfPasses</strong></dt>
+</dl>
+<dl><dt><strong>preset</strong></dt>
+</dl>
+<dl><dt><strong>uniqueId</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 168</dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsMapJob-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsRegionData">class <strong>EdsRegionData</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">EDS&nbsp;region&nbsp;acquisition&nbsp;data.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsRegionData">EdsRegionData</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsRegionData-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code">Raises&nbsp;an&nbsp;exception<br>
+This&nbsp;class&nbsp;cannot&nbsp;be&nbsp;instantiated&nbsp;from&nbsp;Python</span></dd></dl>
+
+<dl><dt><a name="EdsRegionData-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>region</strong></dt>
+</dl>
+<dl><dt><strong>sumSpectrum</strong></dt>
+</dl>
+<dl><dt><strong>uniqueId</strong></dt>
+</dl>
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsRegionData-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsSpotData">class <strong>EdsSpotData</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">EDS&nbsp;spot&nbsp;acquisition&nbsp;data.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsSpotData">EdsSpotData</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsSpotData-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code">Raises&nbsp;an&nbsp;exception<br>
+This&nbsp;class&nbsp;cannot&nbsp;be&nbsp;instantiated&nbsp;from&nbsp;Python</span></dd></dl>
+
+<dl><dt><a name="EdsSpotData-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>position</strong></dt>
+</dl>
+<dl><dt><strong>spotSpectrum</strong></dt>
+</dl>
+<dl><dt><strong>uniqueId</strong></dt>
+</dl>
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsSpotData-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsSpotJob">class <strong>EdsSpotJob</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsSpotJob">EdsSpotJob</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsSpotJob-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#EdsSpotJob-__init__">__init__</a>(&nbsp;(object)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsSpotJob-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>driftCorrectionInitialAcquisition</strong></dt>
+</dl>
+<dl><dt><strong>imagePos</strong></dt>
+</dl>
+<dl><dt><strong>imageSize</strong></dt>
+</dl>
+<dl><dt><strong>maxCounts</strong></dt>
+</dl>
+<dl><dt><strong>maxTime</strong></dt>
+</dl>
+<dl><dt><strong>preset</strong></dt>
+</dl>
+<dl><dt><strong>uniqueId</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 168</dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsSpotJob-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="EdsSyncMapJob">class <strong>EdsSyncMapJob</strong></a>(Boost.Python.instance)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="PyPhenom.Application.ElementIdentification.html#EdsSyncMapJob">EdsSyncMapJob</a></dd>
+<dd>Boost.Python.instance</dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="EdsSyncMapJob-__init__"><strong>__init__</strong></a>(...)</dt><dd><span class="code"><a href="#EdsSyncMapJob-__init__">__init__</a>(&nbsp;(object)arg1)&nbsp;-&gt;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="EdsSyncMapJob-__reduce__"><strong>__reduce__</strong></a> = <unnamed Boost.Python function>(...)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>acquisitionTimePerGridPosition</strong></dt>
+</dl>
+<dl><dt><strong>driftCorrectionInitialAcquisition</strong></dt>
+</dl>
+<dl><dt><strong>imageRect</strong></dt>
+</dl>
+<dl><dt><strong>imageSize</strong></dt>
+</dl>
+<dl><dt><strong>preset</strong></dt>
+</dl>
+<dl><dt><strong>uniqueId</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__instance_size__</strong> = 168</dl>
+
+<hr>
+Static methods inherited from Boost.Python.instance:<br>
+<dl><dt><a name="EdsSyncMapJob-__new__"><strong>__new__</strong></a>(*args, **kwargs)<span class="grey"><span class="heading-text"> from Boost.Python.class</span></span></dt><dd><span class="code">Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from Boost.Python.instance:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
