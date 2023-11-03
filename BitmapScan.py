@@ -55,7 +55,7 @@ pat.center = ppi.Position(+0.0, +0.0) #tells to start pattern from the center
 with open('main.csv', mode ='r')as file:
   
   # reading the CSV file
-    control = csv.reader(file)
+    control = csv.reader(file,quoting=csv.QUOTE_NONNUMERIC)
     next(control)
     #move from initial location
     phenom.MoveBy(offset[0], offset[1])
