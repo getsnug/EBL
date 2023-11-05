@@ -1,2 +1,0 @@
-Error (0): SelectImagingDevice: V4L2Device::StreamOff() failed: No such device
-Error (1): NavCamAcquireImageCopy: V4L2Device::StreamOff() failed: No such device
