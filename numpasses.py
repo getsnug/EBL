@@ -3,6 +3,7 @@ import math
 import time
 import csv
 import cv2
+import numpy as np
 from datetime import datetime
 #tb is some constant that is determined by the time that the SEM spends on each black pixel
 tb = 0.0001
@@ -103,5 +104,4 @@ with open('main.csv', mode ='r')as file:
 
 def sleepTime(numPasses,filename):
     img = cv2.imread(filename,0)
-    ret,thresh = cv2.threshold(img,0,230, cv2.THRESH_BINARY)
-    size=img.size
+    return np.sum(img==0)*tb
