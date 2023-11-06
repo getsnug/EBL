@@ -20,6 +20,10 @@ offset = (0e-4, 5e-4) #tells where to start writing in relation to initial set p
 # (typically top of scratch mark) in (x,y) coordinates in meters if you're not sure what you want
 # (0e-4, 5e-4) is a pretty good starting value
 
+# function to determine how long the machine should spend tracing a single pattern
+def sleepTime(numPasses,filename):
+    img = cv2.imread(filename,0)
+    return np.sum(img==0)*tb
 
 black_pixel_count = 11020.0
 logFile = open('logs/' + logFileName + '.csv', 'a', newline='')
@@ -101,7 +105,3 @@ with open('main.csv', mode ='r')as file:
         # print('positions used (relative to starting point):')
         # for i in range(len(numPasses)):
         #     print('    (%f,%f)' % (i*increment + offset[0], offset[1]))
-
-def sleepTime(numPasses,filename):
-    img = cv2.imread(filename,0)
-    return np.sum(img==0)*tb
