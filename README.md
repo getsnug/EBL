@@ -8,7 +8,7 @@ Once you've got your images and control file in a folder, you need only make sur
 That's it. You're ready to EBL, if you're chip is ready pop it in to the SEM and start etching!
 ## Process:
 ### Preface:
-Here I will describe our process, this will likely look different depending on your application, but for our labs purposes, as well as anyone starting without much direction this should be a good direction.
+Here I will describe our process, this will likely look different depending on your application, but for our labs purposes, as well as anyone starting without much direction this should be a good starting point.
 ### Making the chip:
 We start with either a silicon or ITO chip and spin coat it with PMMA A6 at 4500 rpm for 30 seconds. Make sure you give it enough time to spin out the bubbles as it starts. After spin coating we bake the chip on a heat plate at $200^{\circ}$ Celcius for at least one minute.
 After spin coating we scratch a 'scarecrow' into the chip. This is how we will orient ourselves when we look at the chip under the SEM.
