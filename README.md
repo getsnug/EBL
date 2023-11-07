@@ -6,6 +6,7 @@ To start I have made [this spreadsheet](https://docs.google.com/spreadsheets/d/1
 
 Once you've got your images and control file in a folder, you need only make sure your directory is entered it BitmapScan.py like here:<img width="871" alt="Screenshot 2023-11-03 at 2 01 41 PM" src="https://github.com/getsnug/EBL/assets/16107813/23a471f8-3e7c-49f1-a3e1-d4c6ed683db7"> 
 
+
 You'll notice that there is also an option for a logFileName, this log file will save all of your outputs, it should look very similar to the input spreadsheet except that it will also have position values for each pattern. Finally there is an offset parameter, read more about our process to understand what the offset parameter means.
 That's it. You're ready to EBL, if you're chip is ready pop it in to the SEM and start etching!
 ## Process:
