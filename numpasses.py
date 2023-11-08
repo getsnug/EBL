@@ -44,11 +44,11 @@ with open('main.csv', mode ='r')as file:
     #move from initial location
     phenom.MoveBy(offset[0], offset[1])
     #set a known position, the first pattern starts at the origin
-    currentPos = (0,0)
+    currentPos = [0,0]
   # displaying the contents of the CSV file
     for line in control:
         #retrieve the image filename
-        filename = line[1]
+        filename = directory+line[1][1:len(line[1])-1]
         #retrieve the exposure times 
         numPasses = line[2:12]
         #initialize log

@@ -38,7 +38,7 @@ with open('main.csv', mode ='r')as file:
   # displaying the contents of the CSV file
     for line in control:
         #retrieve the image filename
-        filename = line[1]
+        filename = directory+line[1][1:len(line[1])-1]
         #retrieve the exposure times 
         exposureTimes = line[2:12]
         #initialize log
