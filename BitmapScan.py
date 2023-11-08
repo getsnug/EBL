@@ -54,7 +54,7 @@ for filename in fileNames:
     logWriter.writerow(['x','y','image_filename','exposure_time','black_pixel_dwell_time'])
     # filename = 'vassar_seal_test1.png'
 
-    phenom = ppi.Phenom('192.168.200.101','MVE08554410904L','4JCMC472P911') #instrument IP address, license for software, password
+    phenom = ppi.Phenom('','','') #instrument IP address, license for software, password
     # phenom = ppi.Phenom('Simulator','','')
     # define the pattern
     vm = phenom.GetSemViewingMode() #makes instrument tell what mode/makes beam available
