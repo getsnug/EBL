@@ -18,7 +18,7 @@ offset = (0e-4, 5e-4) #tells where to start writing in relation to initial set p
 
 logFile = open('logs/' + logFileName + '.csv', 'a', newline='')
 # define the pattern and initialize connection
-phenom = ppi.Phenom('192.168.200.101','MVE08554410904L','4JCMC472P911') #instrument IP address, license for software, password
+phenom = ppi.Phenom('','','') #instrument IP address, license for software, password
 vm = phenom.GetSemViewingMode() #makes instrument tell what mode/makes beam available
 pat = ppi.Patterning.BitmapScanPattern() #Writes an image. (Instead of a point or rectangle) for more info see ppi-patterning doc from vince
 pat.maskColor = ppi.Bgra32(255, 255, 255, 255) #assuming its making the color associate with depth. "any pixel matching this color will be skipped"- ppi-patterning doc from vince
