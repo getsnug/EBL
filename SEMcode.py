@@ -49,7 +49,7 @@ logWriter = csv.writer(logFile, delimiter=',')
 logWriter.writerow([runDate.strftime('%Y-%m-%d %H:%M:%S')])
 logWriter.writerow(['x','y','image_filename','exposure_time','black_pixel_dwell_time'])
 
-phenom = ppi.Phenom('192.168.200.101','MVE08554410904L','4JCMC472P911') #instrument IP address, license for software, password
+phenom = ppi.Phenom('','','') #instrument IP address, license for software, password
 # define the pattern
 vm = phenom.GetSemViewingMode() #makes instrument tell what mode/makes beam available
 pat = ppi.Patterning.BitmapScanPattern() #dont know
