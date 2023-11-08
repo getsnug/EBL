@@ -52,7 +52,7 @@ increment = 0.15e-3
 #black_pixel_dwell_time = [20.0e-6, 30.0e-6, 40.0e-6]
 black_pixel_dwell_time=1e-6
 
-phenom = ppi.Phenom('192.168.200.101','MVE08554410904L','4JCMC472P911') #instrument IP address, license for software, password
+phenom = ppi.Phenom('','','') #instrument IP address, license for software, password
 
 
 #********************************Parameters for SEM******************************
