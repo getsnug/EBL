@@ -45,9 +45,14 @@ with open('main.csv', mode ='r')as file:
         logWriter = csv.writer(logFile, delimiter=',')
         logWriter.writerow([runDate.strftime('%Y-%m-%d %H:%M:%S')])
         logWriter.writerow([currentPos,filename,exposureTimes])
-            
-        pat.SetImage(ppi.Load(filename)) #taking image, make it available for scanning
-        
+        #image retrieval needs to be wrapped otherwise the 
+        try:
+            pat.SetImage(ppi.Load(filename)) #taking image, make it available for scanning
+        except FileNotFoundError as e:
+            Warning("File not found error, ending loop and returning to imaging mode")
+            vm.scanMode = ppi.ScanMode.Imaging
+            phenom.SetSemViewingMode(vm)
+            break
         #set the image size
         pat.size = ppi.SizeD(line[12], line[13])
         #set the pattern spacing
