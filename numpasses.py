@@ -21,9 +21,10 @@ offset = (0e-4, 5e-4) #tells where to start writing in relation to initial set p
 # (0e-4, 5e-4) is a pretty good starting value
 
 # function to determine how long the machine should spend tracing a single pattern
-def sleepTime(numPasses,filename):
+def sleepTime(numPasses,dt,filename):
     img = cv2.imread(filename,0)
-    return np.sum(img==0)*tb
+    #multiply numpasses by the sum of the black and white pixel dwell times with the # of black and white pixels
+    return numPasses*(np.sum(img==0)*dt[1]+np.sum(img==255)*dt[0])
 
 black_pixel_count = 11020.0
 logFile = open('logs/' + logFileName + '.csv', 'a', newline='')
@@ -33,7 +34,6 @@ vm = phenom.GetSemViewingMode() #makes instrument tell what mode/makes beam avai
 pat = ppi.Patterning.BitmapScanPattern() #Writes an image. (Instead of a point or rectangle) for more info see ppi-patterning doc from vince
 pat.maskColor = ppi.Bgra32(255, 255, 255, 255) #assuming its making the color associate with depth. "any pixel matching this color will be skipped"- ppi-patterning doc from vince
 pat.center = ppi.Position(+0.0, +0.0) #tells to start pattern from the center
-
 #move to initial offset
 with open('main.csv', mode ='r')as file:
   
@@ -47,10 +47,14 @@ with open('main.csv', mode ='r')as file:
     currentPos = [0,0]
   # displaying the contents of the CSV file
     for line in control:
+        dt = line[16:17]
+        pat.dwellTimeRange = dt
         #retrieve the image filename
         filename = directory+line[1][1:len(line[1])-1]
         #retrieve the exposure times 
         numPasses = line[2:12]
+        #change pat.intensity to MinimumBlack to invert the image
+        pat.intensity = MinimumWhite
         #initialize log
         logWriter = csv.writer(logFile, delimiter=',')
         logWriter.writerow([runDate.strftime('%Y-%m-%d %H:%M:%S')])
@@ -83,7 +87,7 @@ with open('main.csv', mode ='r')as file:
                 phenom.SetSemViewingMode(vm)
                 for j in range(numPasses(i)):
                     phenom.SetSemViewingMode(vm)
-                    time.sleep(sleepTime(numPasses,filename))
+                    time.sleep(sleepTime(numPasses,dt,filename))
                 vm.scanMode = ppi.ScanMode.Imaging
                 phenom.SetSemViewingMode(vm)
                 currentPos[0] = currentPos[0]+increment
